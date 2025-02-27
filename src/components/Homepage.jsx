@@ -1,5 +1,3 @@
-import Img from '../assets/Images/Hotel-5.jpg';
-
 function Homepage() {
     function showSidebar() {
         const sidebar = document.querySelector('.sidebar');
@@ -73,9 +71,9 @@ function Homepage() {
                     </li>
                 </ul>
             </nav>
-            <div className="main-page">
-                <div className="thumbnail">
-                    <img src={Img} alt="" />
+            <div className="background-image">
+                <div className="text-content">
+                    <h2>Welcome To Hotel Ambasewana</h2>
                 </div>
             </div>
         </>
