@@ -11,7 +11,7 @@
 :root {
     --bg-color: #121212;
     --text-clr: #fff;
-    --main-clr: #d4a373;
+    --main-clr: #d4c56d;
 
     --big-font: 5.4rem;
     --p-font: 1rem;
@@ -20,35 +20,5 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-clr);
-}
-
-@media (max-width: 1370px) {
-    .icons {
-        display: none;
-    }
-
-    section {
-        padding: 0 4%;
-    }
-}
-
-@media (max-width: 1150px) {
-    :root {
-        --big-font: 3.5rem;
-    }
-    .hero-text {
-        width: 60%;
-    }
-}
-
-@media (max-width: 1035px) {
-    .hero-text {
-        width: 65%;
-    }
-}
-
-@media (max-width: 955px) {
-    .hero-text {
-        width: 65%;
-    }
+    min-height: 100vh;
 }

@@ -1,236 +1,33 @@
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    padding: 25px 7%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: all 0.5s ease;
-}
-
-.logo {
-    width: 100%;
-    height: auto;
-    transition: all 0.5s ease;
-    filter: brightness(1);
-}
-
-.logo:hover {
-    filter: brightness(1.3);
-}
-.navlist {
-    display: flex;
-}
-
-.navlist li {
-    width: 100%;
-}
-
-.navlist a {
-    display: inline-block;
-    margin: 0 35px;
-    color: var(--text-clr);
-    font-size: var(--p-font);
-    transition: all 0.6s ease;
-    text-decoration: none;
-}
-
-.navlist a:hover {
-    color: var(--main-clr);
-}
-
-#menu-icon {
-    font-size: 42px;
-    z-index: 1001;
-    cursor: pointer;
-    margin-left: 25px;
-    display: none;
-}
-
-#close-icon {
-    font-size: 42px;
-    margin-left: 25px;
-    display: none;
-}
-
-/* Hero */
-
-section {
-    padding: 0 14%;
-}
-
-.hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
+.bg-img {
+    background-image: url('/src/assets/Hotel-5.jpg');
     background-position: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: start;
-    align-items: center;
-    gap: 2rem;
-    overflow: hidden; /* Ensure the pseudo-element does not overflow */
-}
-
-.hero::before {
-    content: '';
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(0.7);
     position: absolute;
+    z-index: -1;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('./assets/Hotel-5.jpg');
-    filter: brightness(0.6);
-    background-size: cover;
-    background-position: center;
-    z-index: -1; /* Place the pseudo-element behind the content */
 }
 
-.hero-text {
-    width: 100%;
-    top: 20%;
-    right: 10%;
-    position: relative;
-    z-index: 1; /* Ensure the text is above the pseudo-element */
-}
-
-.hero-text h1 {
-    font-family: 'Lora', serif;
-    font-size: var(--big-font);
-    font-weight: 900;
-    margin: 10px 0;
-}
-
-.hero-text h5 {
-    font-family: 'Tangerine', serif;
-    font-size: 32px;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-
-.hero-text p {
-    width: 100%;
-    max-width: 620px;
-    font-weight: 700;
-    font-size: 52px;
-    font-weight: 400;
-    line-height: 32px;
-    color: var(--text-clr);
-    margin-bottom: 40px;
-    font-family: 'Tangerine', serif;
-}
-
-.icons {
-    position: absolute;
-    top: 50%;
-    left: 94%;
-    /* padding: 0 7%; */
-    transform: translateY(-50%);
-}
-
-.icons i {
-    display: block;
-    margin: 35px 0;
-    color: var(--text-clr);
-    font-size: 23px;
-    transition: all 0.6s;
-}
-
-.icons i:hover {
+nav a:hover {
     color: var(--main-clr);
 }
 
-.scroll {
-    position: absolute;
-    top: 92%;
-    right: 50%;
-    left: 50%;
-    transform: translateY(-50%);
+.nav-items a {
+    color: #fff;
 }
 
-.scroll a {
-    font-size: 16px;
-    color: var(--text-clr);
+.nav-items a:hover {
+    color: var(--main-clr);
 }
 
-.scroll i {
-    font-size: 20px;
-    color: var(--text-clr);
-    margin: 2px 6px;
+.navbar-brand img {
+    transition: all 0.3s ease;
 }
 
-.sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 1001;
-    background-color: #ffffff3c;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+.navbar-brand img:hover {
+    transform: scale(1.05);
 }
-
-.sidebar li {
-    width: 100%;
-}
-
-.sidebar a {
-    width: 100%;
-}
-
-.menu-btn {
-    display: none;
-}
-
-@media (max-width: 1200px) {
-    .menu-btn {
-        display: block;
-    }
-    .hideOnMobile {
-        display: none;
-    }
-    .sidebar {
-        width: 100%;
-    }
-}
-
-/* @media (max-width: 950px) {
-    #menu-icon {
-        display: block;
-    }
-    .navlist {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        padding: 100px 50px;
-        top: 0;
-        right: 0;
-        left: 100%;
-        bottom: 0;
-        display: flex;
-        flex-direction: column;
-        -webkit-backdrop-filter: blur(32px);
-        backdrop-filter: blur(32px);
-        transition: all 0.6s ease-in-out;
-    }
-
-    .navlist a {
-        display: block;
-        padding: 0;
-        margin: 0px 0px 20px 0px;
-        font-size: 1.5rem;
-    }
-
-    .navlist.open {
-        left: 0;
-    }
-} */

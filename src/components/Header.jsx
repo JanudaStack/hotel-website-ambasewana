@@ -1,74 +1,34 @@
 import logo from '../assets/logo/logo-1.png';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
-    const sidebar = document.querySelector('.sidebar');
-
-    function showSidebar() {
-        sidebar.style.display = 'flex';
-    }
-    function hideSidebar() {
-        sidebar.style.display = 'none';
-    }
-
     return (
         <>
-            <header>
-                <a href="#" className="logo">
-                    <img src={logo} alt="" width={'150px'} />
-                </a>
-
-                <ul className="sidebar">
-                    <li onClick={hideSidebar}>
-                        <a>
-                            <i className="bx bx-x"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="">About Us</a>
-                    </li>
-                    <li>
-                        <a href="">Rooms & Accomodation</a>
-                    </li>
-                    <li>
-                        <a href="">Restaurant & Dining</a>
-                    </li>
-                    <li>
-                        <a href="">Events & Functions</a>
-                    </li>
-                    <li>
-                        <a href="">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="">Locate Us</a>
-                    </li>
-                </ul>
-                <ul className="navlist">
-                    <li className="hideOnMobile">
-                        <a href="">About Us</a>
-                    </li>
-                    <li className="hideOnMobile">
-                        <a href="">Rooms & Accomodation</a>
-                    </li>
-                    <li className="hideOnMobile">
-                        <a href="">Restaurant & Dining</a>
-                    </li>
-                    <li className="hideOnMobile">
-                        <a href="">Events & Functions</a>
-                    </li>
-                    <li className="hideOnMobile">
-                        <a href="">Gallery</a>
-                    </li>
-                    <li className="hideOnMobile">
-                        <a href="">Locate Us</a>
-                    </li>
-                    <li onClick={showSidebar} className="menu-btn">
-                        <a>
-                            <i className="bx bx-menu"></i>
-                        </a>
-                    </li>
-                </ul>
-            </header>
+            <div className="bg-img"></div>
+            <Navbar expand="lg" className="bg-transparent">
+                <Container>
+                    <Navbar.Brand href="#home">
+                        <img src={logo} alt="logo" width={'120px'} />
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="ms-auto nav-items">
+                            <Nav.Link href="#home">About Us</Nav.Link>
+                            <Nav.Link href="#link">
+                                Rooms & Accomodation
+                            </Nav.Link>
+                            <Nav.Link href="#link">
+                                Restaurant & Dining
+                            </Nav.Link>
+                            <Nav.Link href="#link">Events & Functions</Nav.Link>
+                            <Nav.Link href="#link">Gallery</Nav.Link>
+                            <Nav.Link href="#link">Locate Us</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </>
     );
 }

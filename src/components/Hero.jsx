@@ -1,16 +1,8 @@
 function Hero() {
-    // let menu = document.querySelector('#menu-icon');
-    // let navlist = document.querySelector('.navlist');
-
-    // menu.onclick = () => {
-    //     menu.classList.toggle('bx-x');
-    //     navlist.classList.toggle('open');
-    // };
     return (
         <>
             <section className="hero">
                 <div className="hero-text">
-                    {/* <h5>✨ Unwind. Indulge. Discover. ✨</h5> */}
                     <h1>
                         Welcome to Hotel <br />
                         Ambasewana
