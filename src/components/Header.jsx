@@ -71,6 +71,17 @@ function Header() {
                     </li>
                 </ul>
             </nav>
+
+            <div className="text-container">
+                <div className="text-content">
+                    <h2>
+                        {' '}
+                        Welcome to Hotel <br />
+                        Ambasewana{' '}
+                    </h2>
+                    <p>- Where Heritage Meets Luxury!</p>
+                </div>
+            </div>
         </>
     );
 }

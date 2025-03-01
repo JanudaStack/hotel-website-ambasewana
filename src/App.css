@@ -1,11 +1,11 @@
 .bg-img {
-    background-image: url('/src/assets/Hotel-5.jpg');
+    background-image: url('/src/assets/Images/Hotel-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
-    filter: brightness(0.65);
+    filter: brightness(0.6);
     position: absolute;
     z-index: -1;
     top: 0;
@@ -90,10 +90,6 @@
     transition: all 0.3s ease;
 }
 
-/* .sidebar li {
-    width: 100%;
-} */
-
 .sidebar a {
     width: 100%;
     font-size: 1.5rem;
@@ -116,9 +112,6 @@
     .sidebar a {
         font-size: 1.8rem;
     }
-}
-
-@media (max-width: 884px) {
 }
 
 @media (max-width: 300px) {
@@ -156,13 +149,81 @@
     }
 }
 
-/* @media (max-width: 1121px) {
-    .navbar a {
-        font-size: 0.9rem;
-    }
-} */
-
 /* section */
 
+.text-container {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+}
+
 .text-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 90%; /* Ensures it doesn’t overflow */
+}
+
+.text-container h2 {
+    font-family: 'Lora', serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.text-container p {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Tangerine', serif;
+}
+
+@media (max-width: 947px) {
+    .text-container {
+        align-items: center;
+    }
+
+    .text-content {
+        text-align: center;
+    }
+
+    .text-content {
+        width: 100%;
+        text-align: center;
+        bottom: 2%;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .text-container h2 {
+        font-size: 3.2rem;
+    }
+
+    .text-container p {
+        padding-top: 10px;
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 540px) {
+    .text-container h2 {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 480px) {
+    .text-container h2 {
+        font-size: 3rem;
+    }
+
+    .text-container p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .text-container h2 {
+        font-size: 2.5rem;
+    }
 }
