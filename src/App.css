@@ -37,6 +37,7 @@
     /* flex-wrap: wrap; */
     /* margin: 10px 10px; */
     color: var(--text-clr);
+
     text-align: center;
     align-items: center;
     transition: 0.3s ease;
@@ -226,4 +227,19 @@
     .text-container h2 {
         font-size: 2.5rem;
     }
+}
+
+/* About */
+
+.section-spacing {
+    margin-top: 100vh; /* Adjust this value as needed */
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.paragraph h2 {
+    font-size: 20px;
 }
