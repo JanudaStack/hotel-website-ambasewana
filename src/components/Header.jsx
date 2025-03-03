@@ -16,9 +16,7 @@ function Header() {
             <nav>
                 <ul className="sidebar">
                     <li className="close-btn" onClick={closeSidebar}>
-                        <a>
-                            <i className="bx bx-x"></i>
-                        </a>
+                        <i className="bx bx-x"></i>
                     </li>
                     <li>
                         <a href="">About Us</a>
