@@ -9,6 +9,11 @@ const About = () => {
                 <div className="content">
                     <img src={img1} alt="" height={'600px'} />
                     <div>
+                        <p className="heading-desc">
+                            Your serene escape in timeless luxury
+                        </p>
+                        <br />
+                        <br />
                         <p>
                             Nestled in the serene countryside of Ussapitiya,
                             Hotel Ambasewana Walawwa is a timeless retreat that

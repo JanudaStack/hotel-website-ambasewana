@@ -75,7 +75,7 @@ function Header() {
                     <h2>
                         {' '}
                         Welcome to Hotel <br />
-                        Ambasewana{' '}
+                        <span>Ambasewana</span>{' '}
                     </h2>
                     <p>- Where Heritage Meets Luxury!</p>
                 </div>
