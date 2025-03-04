@@ -15,7 +15,7 @@ const Card = () => {
                         accusamus voluptas labore blanditiis magni minus.
                     </p> */}
                     </div>
-                    <div className="card" id="card-2">
+                    <div className="card" id="card-black">
                         <i className="ri bx bx-wifi"></i>
                         <h3>Free WiFi</h3>
                         {/* <p>
@@ -35,7 +35,7 @@ const Card = () => {
                         accusamus voluptas labore blanditiis magni minus.
                     </p> */}
                     </div>
-                    <div className="card" id="card-2">
+                    <div className="card" id="card-black">
                         <i className="ri ri-restaurant-line"></i>
                         <h3>Dining</h3>
                         {/* <p>
