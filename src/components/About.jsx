@@ -4,7 +4,7 @@ const About = () => {
     return (
         <>
             <div className="section-spacing"></div>
-            <div className="container">
+            <div className="container-2 container-heading">
                 <h2>About Us</h2>
                 <div className="content">
                     <img src={img1} alt="" height={'600px'} />
