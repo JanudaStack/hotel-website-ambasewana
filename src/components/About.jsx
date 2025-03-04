@@ -18,11 +18,12 @@ const About = () => {
                             offering the comforts of a modern stay. From its
                             grand architecture to its warm hospitality, every
                             corner of our hotel tells a story of elegance and
-                            tradition. Whether you&apos;re seeking a peaceful
-                            escape, a family getaway, or an intimate destination
-                            for special occasions, we invite you to immerse
-                            yourself in the beauty and warmth of Ambasewana
-                            Walawwa.
+                            tradition. <br />
+                            <br />
+                            Whether you&apos;re seeking a peaceful escape, a
+                            family getaway, or an intimate destination for
+                            special occasions, we invite you to immerse yourself
+                            in the beauty and warmth of Ambasewana Walawwa.
                         </p>
                     </div>
                 </div>

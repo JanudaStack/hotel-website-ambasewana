@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
     list-style: none;
     text-decoration: none;
     /* overflow-x: hidden; */
@@ -19,7 +18,8 @@
     --p-font: 1rem;
 
     --heading-font: 'Playfair Display', serif;
-    --p-font: 'Dancing Script', cursive;
+    --p-font: 'Montserrat', sans-serif;
+    --heading-des: 'Cormorant Garamond', serif;
 }
 
 body {
