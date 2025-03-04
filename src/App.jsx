@@ -1,4 +1,3 @@
-// import Homepage from './components/Homepage';
 import Header from './components/Header';
 import About from './components/About';
 import Card from './components/Card';
