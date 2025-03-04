@@ -273,10 +273,10 @@
 }
 
 .content p {
-    line-height: 55px;
+    /* line-height: 55px; */
     font-family: var(--p-font);
     font-weight: 500;
-    font-size: clamp(2.4rem, 3.6vw, 7rem);
+    font-size: clamp(2.4rem, 2.5vw, 7rem);
     width: 100%;
     text-align: justify;
     padding-left: 60px;

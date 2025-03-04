@@ -18,8 +18,8 @@
     --big-font: 5.4rem;
     --p-font: 1rem;
 
-    --heading-font: 'Merriweather', serif;
-    --p-font: 'Tangerine', serif;
+    --heading-font: 'Playfair Display', serif;
+    --p-font: 'Dancing Script', cursive;
 }
 
 body {
