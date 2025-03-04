@@ -380,11 +380,11 @@
 }
 
 #card-2 {
-    background-color: var(--bg-color);
+    background-color: #272424;
 }
 
-i.bx {
-    font-size: 46px;
+i.ri {
+    font-size: 36px;
 }
 
 @media (max-width: 535px) {

@@ -6,7 +6,7 @@ const Card = () => {
                 <h2>Our Amenities</h2>
                 <div className="card-container">
                     <div className="card">
-                        <i className="bx bxs-dish"></i>
+                        <i className="ri bx bxs-dish"></i>
                         <h3>Room service</h3>
                         {/* <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -16,7 +16,7 @@ const Card = () => {
                     </p> */}
                     </div>
                     <div className="card" id="card-2">
-                        <i className="bx bx-wifi"></i>
+                        <i className="ri bx bx-wifi"></i>
                         <h3>Free WiFi</h3>
                         {/* <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -26,8 +26,18 @@ const Card = () => {
                     </p> */}
                     </div>
                     <div className="card">
-                        <i className="bx bxs-parking"></i>
+                        <i className="ri ri-parking-box-line"></i>
                         <h3>Free parking</h3>
+                        {/* <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque assumenda iste aut sunt quas fugit repellendus
+                        rerum ut corrupti nam neque provident error laudantium,
+                        accusamus voluptas labore blanditiis magni minus.
+                    </p> */}
+                    </div>
+                    <div className="card" id="card-2">
+                        <i className="ri bx bxs-dog"></i>
+                        <h3>Pets</h3>
                         {/* <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Atque assumenda iste aut sunt quas fugit repellendus
