@@ -36,8 +36,8 @@ const Card = () => {
                     </p> */}
                     </div>
                     <div className="card" id="card-2">
-                        <i className="ri bx bxs-dog"></i>
-                        <h3>Pets</h3>
+                        <i className="ri ri-restaurant-line"></i>
+                        <h3>Dining</h3>
                         {/* <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Atque assumenda iste aut sunt quas fugit repellendus
