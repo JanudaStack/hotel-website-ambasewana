@@ -6,7 +6,7 @@ const About = () => {
             <div className="section-spacing"></div>
             <div className="about-container">
                 <div className="heading">
-                    <h2>Our Amenities</h2>
+                    <h2>About</h2>
                 </div>
                 <div className="content">
                     <img src={img1} alt="" height={'600px'} />
@@ -16,7 +16,7 @@ const About = () => {
                         </p>
                         <br />
                         <br />
-                        <p>
+                        <p id="about">
                             Nestled in the serene countryside of Ussapitiya,
                             Hotel Ambasewana Walawwa is a timeless retreat that
                             blends heritage, luxury, and nature. Built on a rich
