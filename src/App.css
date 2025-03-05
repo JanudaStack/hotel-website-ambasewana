@@ -294,6 +294,7 @@
 }
 
 .heading-desc {
+    font-family: var(--heading-description-font);
     font-style: italic;
     color: #d4c56d;
 }
