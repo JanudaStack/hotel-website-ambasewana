@@ -2,9 +2,11 @@ const Card = () => {
     return (
         <>
             <div className="section-spacing-2"></div>
-            <div className="container-3 container-heading">
-                <h2>Our Amenities</h2>
-                <div className="card-container">
+            <div className="card-container">
+                <div className="heading">
+                    <h2>Our Amenities</h2>
+                </div>
+                <div className="card-container-inner">
                     <div className="card">
                         <i className="ri bx bxs-dish"></i>
                         <h3>Room service</h3>
