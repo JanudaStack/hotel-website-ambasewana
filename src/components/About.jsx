@@ -11,12 +11,12 @@ const About = () => {
                 <div className="content">
                     <img src={img1} alt="" height={'600px'} />
                     <div>
-                        <p className="heading-desc">
-                            Your serene escape in timeless luxury
-                        </p>
-                        <br />
-                        <br />
                         <p id="about">
+                            <span className="heading-desc">
+                                Your serene escape in timeless luxury{' '}
+                            </span>
+                            <br />
+                            <br />
                             Nestled in the serene countryside of Ussapitiya,
                             Hotel Ambasewana Walawwa is a timeless retreat that
                             blends heritage, luxury, and nature. Built on a rich
