@@ -9,11 +9,14 @@ const About = () => {
                     <h2>About</h2>
                 </div>
                 <div className="content">
-                    <img src={img1} alt="" height={'600px'} />
-                    <div>
+                    <div data-aos="fade-right">
+                        <img src={img1} alt="" height={'600px'} />
+                    </div>
+
+                    <div data-aos="fade-left">
                         <p id="about">
                             <span className="heading-desc">
-                                Your serene escape in timeless luxury{' '}
+                                Your serene escape in timeless luxury
                             </span>
                             <br />
                             <br />

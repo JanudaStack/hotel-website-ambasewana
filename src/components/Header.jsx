@@ -71,7 +71,7 @@ function Header() {
             </nav>
 
             <div className="text-container">
-                <div className="text-content">
+                <div className="text-content" data-aos="fade-right">
                     <h2>
                         {' '}
                         Welcome to Hotel <br />

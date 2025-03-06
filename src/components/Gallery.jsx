@@ -27,7 +27,7 @@ function Gallery() {
                 <div className="heading">
                     <h2>Gallery</h2>
                 </div>
-                <div className="image__container box">
+                <div className="image__container">
                     <div className="dream">
                         <img src={img2} alt="image" />
                         <img src={img10} alt="image" className="showOnBtn" />
