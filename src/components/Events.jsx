@@ -7,7 +7,7 @@ const Events = () => {
         <>
             <div id="card-area">
                 <div className="heading">
-                    <h2>Gallery</h2>
+                    <h2>Events & Functions</h2>
                 </div>
                 <div className="wrapper">
                     <div className="box-area">
