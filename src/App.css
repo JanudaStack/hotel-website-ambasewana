@@ -386,6 +386,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 120px 20px 0 20px;
 }
 
 .card-container-inner {
@@ -439,7 +440,7 @@ i.ri {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px 20px 0 20px;
+    margin: 120px 20px 0 20px;
 }
 
 .heading {
@@ -510,7 +511,7 @@ i.ri {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 80px 20px 0 20px;
+    margin: 120px 20px 0 20px;
 }
 
 .event-card-container {
@@ -596,4 +597,59 @@ i.ri {
     .card-area {
         flex-direction: column;
     }
+}
+
+/* ===Rooms & Accomodations */
+
+.room-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 20px 0 20px;
+}
+
+.room-card-container {
+    display: flex;
+}
+
+.room-card-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.room-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.room-card img {
+    width: 100%;
+    /* filter: grayscale(0.7); */
+    transition: 0.3s;
+    /* border-radius: 10px; */
+}
+
+.room-card-content {
+    width: 100%;
+    background: #a39752;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.room-card:hover img {
+    /* filter: grayscale(0); */
+}
+
+.room-card-content:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
