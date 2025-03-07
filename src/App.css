@@ -448,6 +448,7 @@ i.ri {
     margin-bottom: 80px;
 }
 .heading h2 {
+    font-family: var(--heading-font);
     text-align: center;
     font-size: 3em;
     font-weight: bolder;
