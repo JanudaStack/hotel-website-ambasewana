@@ -322,6 +322,7 @@
 
     .content img {
         margin-bottom: 10vh;
+        width: 400px;
     }
 
     #about {
@@ -353,7 +354,7 @@
 
 @media (max-width: 535px) {
     .content img {
-        width: 100%;
+        /* width: 100%; */
         height: auto;
     }
     #about {
@@ -386,7 +387,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 120px 20px 0 20px;
+    margin: 120px 0px;
 }
 
 .card-container-inner {
@@ -440,7 +441,7 @@ i.ri {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 120px 20px 0 20px;
+    margin: 120px 20px 20px 20px;
 }
 
 .heading {
@@ -511,7 +512,7 @@ i.ri {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 120px 20px 0 20px;
+    margin: 120px 20px 20px 20px;
 }
 
 .event-card-container {
@@ -593,9 +594,18 @@ i.ri {
 
 /* === Media Queries */
 
-@media (max-width: 769px) {
+@media (max-width: 974px) {
     .card-area {
         flex-direction: column;
+    }
+    .event-card {
+        width: 65%;
+    }
+}
+
+@media (max-width: 525px) {
+    .event-card {
+        width: 100%;
     }
 }
 
@@ -652,4 +662,91 @@ i.ri {
 .room-card-content:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+/* ===Media Query=== */
+
+@media (max-width: 974px) {
+    .room-card-area {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 525px) {
+    .room-card {
+        width: 55%;
+    }
+}
+
+/* ===Location Container=== */
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 20px 20px 20px;
+}
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 90px;
+}
+.box {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    text-align: justify;
+}
+h2 {
+}
+
+.box p {
+    font-size: 2rem;
+}
+
+iframe {
+    border-radius: 2em;
+    opacity: 0.7;
+    width: 500px;
+    height: 500px;
+    transition: all 0.3s ease-in-out;
+}
+
+iframe:hover {
+    opacity: 1;
+}
+
+/* Media queries */
+
+@media (max-width: 900px) {
+    .map-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 584px) {
+    .map-container {
+        flex-direction: column;
+    }
+    .box p {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    iframe {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 584px) {
+    .box p {
+        font-size: 1.2rem;
+    }
+    iframe {
+        width: 250px;
+        height: 250px;
+    }
 }

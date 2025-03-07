@@ -8,6 +8,7 @@ import Card from './components/Card';
 import Gallery from './components/Gallery';
 import Events from './components/Events';
 import Rooms from './components/Rooms';
+import Location from './components/Location';
 
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
             <Gallery />
             <Events />
             <Rooms />
+            <Location />
         </>
     );
 }
