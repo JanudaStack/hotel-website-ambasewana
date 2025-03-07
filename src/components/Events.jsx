@@ -5,41 +5,41 @@ import img3 from '../assets/Events/3.jpg';
 const Events = () => {
     return (
         <>
-            <div id="card-area">
+            <div className="event-container">
                 <div className="heading">
                     <h2>Events & Functions</h2>
                 </div>
-                <div className="wrapper">
-                    <div className="box-area">
-                        <div className="box">
-                            <img src={img1} alt="" />
-                            <div className="overlay">
-                                <h3>Card</h3>
+                <div className="event-card-container">
+                    <div className="card-area">
+                        <div className="event-card">
+                            <img src={img1} alt="" width={'10%'} />
+                            <div className="card-content">
+                                <h3>Birthday Parties</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Numquam, reiciendis!
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Mollitia, eius.
                                 </p>
                                 <a href="">Read More</a>
                             </div>
                         </div>
-                        <div className="box">
-                            <img src={img2} alt="" />
-                            <div className="overlay">
-                                <h3>Card</h3>
+                        <div className="event-card">
+                            <img src={img2} alt="" width={'10%'} />
+                            <div className="card-content">
+                                <h3>Parties</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Numquam, reiciendis!
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Mollitia, eius.
                                 </p>
                                 <a href="">Read More</a>
                             </div>
                         </div>
-                        <div className="box">
-                            <img src={img3} alt="" />
-                            <div className="overlay">
-                                <h3>Card</h3>
+                        <div className="event-card">
+                            <img src={img3} alt="" width={'10%'} />
+                            <div className="card-content">
+                                <h3>Dining</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Numquam, reiciendis!
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Mollitia, eius.
                                 </p>
                                 <a href="">Read More</a>
                             </div>
