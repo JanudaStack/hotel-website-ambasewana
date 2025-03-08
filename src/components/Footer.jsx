@@ -16,8 +16,8 @@ const Footer = () => {
                     </div>
                     <div className="col">
                         <h3>Office</h3>
-                        <p>JSTACK</p>
-                        <p>JBoss</p>
+                        <p>Text1</p>
+                        <p>Text2</p>
                         <p>Address</p>
                         <p id="email">Email</p>
                         <h4>Phone Number</h4>
