@@ -9,6 +9,7 @@ import Gallery from './components/Gallery';
 import Events from './components/Events';
 import Rooms from './components/Rooms';
 import Location from './components/Location';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -25,6 +26,7 @@ function App() {
             <Events />
             <Rooms />
             <Location />
+            <Footer />
         </>
     );
 }
