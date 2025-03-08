@@ -787,9 +787,14 @@ footer {
 .footer-logo {
     width: 150px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
+.col p {
+    font-family: var(--p-font);
+}
 .col h3 {
+    font-family: var(--p-font);
     width: fit-content;
     margin-bottom: 30px;
     position: relative;
@@ -807,8 +812,14 @@ footer {
 }
 
 .col ul li a {
+    font-family: var(--p-font);
     text-decoration: none;
     color: #fff;
+    transition: 0.3s ease;
+}
+
+.col ul li:hover a {
+    /* text-decoration: underline; */
 }
 
 form {
@@ -859,6 +870,10 @@ form button .fa-solid {
     cursor: pointer;
 }
 
+.fa-phone {
+    font-size: 15px;
+}
+
 hr {
     width: 90%;
     border: 0;
@@ -867,6 +882,7 @@ hr {
 }
 
 #copyright {
+    font-family: var(--p-font);
     text-align: center;
 }
 
