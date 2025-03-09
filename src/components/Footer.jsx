@@ -16,13 +16,13 @@ const Footer = () => {
                     </div>
                     <div className="col">
                         <h3>Office</h3>
-                        <p>Text1</p>
-                        <p>Text2</p>
+                        <p></p>
+                        <p></p>
                         <p>
                             Aranayaka Road, <br />
                             Ussapitiya, Mawanella, 71500 Mawanella
                         </p>
-                        <p id="email">Email: ambasewanawalawwa1@gmail.com</p>
+                        <p id="email">ambasewanawalawwa1@gmail.com</p>
                         <h4>
                             <i className="fa-solid fa-phone"></i>
                             076 167 7739

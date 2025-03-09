@@ -781,7 +781,7 @@ footer {
 
 .col:nth-child(2),
 .col:nth-child(3) {
-    flex-basis: 15%;
+    /* flex-basis: 15%; */
 }
 
 .footer-logo {
@@ -792,6 +792,7 @@ footer {
 
 .col p {
     font-family: var(--p-font);
+    text-transform: uppercase;
 }
 .col h3 {
     font-family: var(--p-font);
@@ -800,7 +801,12 @@ footer {
     position: relative;
 }
 
+.col h4 {
+    font-family: var(--p-font);
+}
+
 #email {
+    text-transform: lowercase;
     width: fit-content;
     border-bottom: 1px solid #ccc;
     margin: 20px 0;
@@ -812,14 +818,15 @@ footer {
 }
 
 .col ul li a {
+    /* text-transform: uppercase;s */
+    font-size: 1rem;
     font-family: var(--p-font);
     text-decoration: none;
     color: #fff;
-    transition: 0.3s ease;
 }
 
 .col ul li:hover a {
-    /* text-decoration: underline; */
+    text-decoration: underline;
 }
 
 form {
