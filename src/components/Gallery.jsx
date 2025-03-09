@@ -61,11 +61,11 @@ function Gallery() {
                         <img src={img6} alt="image" />
                         <img src={img8} alt="image" />
                         <img src={img7} alt="image" className="showOnBtn" />
-                        <img src={img18} alt="image" className="showOnBtn" />
+                        <img src={img1} alt="image" className="showOnBtn" />
                         <img src={img5} alt="image" className="showOnBtn" />
                     </div>
                     <div className="dream">
-                        <img src={img1} alt="image" />
+                        <img src={img18} alt="image" />
                         <img src={img11} alt="image" />
                         <img src={img12} alt="image" className="showOnBtn" />
                         <img src={img14} alt="image" className="showOnBtn" />
