@@ -20,7 +20,8 @@ const Footer = () => {
                         <p></p>
                         <p>
                             Aranayaka Road, <br />
-                            Ussapitiya, Mawanella, 71500 Mawanella
+                            Ussapitiya, Mawanella <br />
+                            71500 Mawanella
                         </p>
                         <p id="email">ambasewanawalawwa1@gmail.com</p>
                         <h4>

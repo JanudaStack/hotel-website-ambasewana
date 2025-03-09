@@ -216,9 +216,9 @@
     .text-content {
         width: 100%;
         text-align: center;
-        bottom: 0%;
-        left: 0%;
-        transform: translate(-50%);
+        bottom: 5%;
+        left: 5%;
+        transform: translate(-50%, 0);
         padding: 0px;
     }
 }
@@ -280,7 +280,20 @@
     max-width: 100%;
     height: auto;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    filter: brightness(0.85);
+}
+
+.content img:hover {
+    filter: brightness(1.1);
+}
+
+.content hr {
+    width: 70%;
+    border: 0;
+    border-bottom: 1px solid #bdb797;
+    margin: 20px auto;
 }
 
 #about {
@@ -288,7 +301,8 @@
     font-family: var(--heading-description-font);
     font-weight: 500;
     /* Needs to be changed */
-    font-size: clamp(1.8rem, 2vw, 7rem);
+    /* font-size: clamp(1.8rem, 2vw, 7rem); */
+    font-size: 1.8rem;
     width: 100%;
     text-align: justify;
     padding-left: 60px;
@@ -405,16 +419,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    filter: brightness(0.9);
+    transition: all 0.3s ease;
+    color: #000;
     /* border: 1px solid rgb(75, 82, 92); */
     /* border-radius: 10px 10px 0 0; */
 }
 
 #card-black {
+    color: #fff;
     background-color: #202020;
 }
 
+.card:hover {
+    filter: brightness(1.1);
+}
+
 i.ri {
-    font-size: 36px;
+    font-size: 45px;
 }
 
 @media (max-width: 535px) {
@@ -749,9 +771,14 @@ i.ri {
 }
 
 .box p {
-    font-family: var(--p-font);
-    font-size: 1.3rem;
+    font-family: var(--heading-description-font);
+    font-size: 1.4rem;
     /* line-height: 4vh; */
+}
+
+.box p span {
+    font-weight: bolder;
+    font-style: italic;
 }
 
 iframe {
@@ -839,7 +866,7 @@ footer {
 
 .col p {
     font-family: var(--p-font);
-    text-transform: uppercase;
+    font-weight: 500;
 }
 .col h3 {
     font-family: var(--p-font);

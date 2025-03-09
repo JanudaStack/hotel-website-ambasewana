@@ -52,24 +52,64 @@ function Gallery() {
                 <div className="image__container">
                     <div className="dream">
                         <img src={img2} alt="image" />
-                        <img src={img10} alt="image" />
-                        <img src={img3} alt="image" className="showOnBtn" />
-                        <img src={img21} alt="image" className="showOnBtn" />
+                        <img src={img11} alt="image" />
+                        <img
+                            src={img3}
+                            alt="image"
+                            className="showOnBtn"
+                            loading="lazy"
+                        />
+                        <img
+                            src={img21}
+                            alt="image"
+                            className="showOnBtn"
+                            loading="lazy"
+                        />
                         {/* <img src={img5} alt="image" /> */}
                     </div>
                     <div className="dream">
-                        <img src={img6} alt="image" />
+                        <img src={img10} alt="image" />
                         <img src={img8} alt="image" />
-                        <img src={img7} alt="image" className="showOnBtn" />
-                        <img src={img1} alt="image" className="showOnBtn" />
-                        <img src={img5} alt="image" className="showOnBtn" />
+                        <img
+                            src={img7}
+                            alt="image"
+                            className="showOnBtn"
+                            loading="lazy"
+                        />
+                        <img
+                            src={img1}
+                            alt="image"
+                            className="showOnBtn"
+                            loading="lazy"
+                        />
+                        <img
+                            src={img5}
+                            alt="image"
+                            className="showOnBtn"
+                            loading="lazy"
+                        />
                     </div>
                     <div className="dream">
                         <img src={img18} alt="image" />
-                        <img src={img11} alt="image" />
-                        <img src={img12} alt="image" className="showOnBtn" />
-                        <img src={img14} alt="image" className="showOnBtn" />
-                        <img src={img19} alt="image" className="showOnBtn" />
+                        <img src={img6} alt="image" />
+                        <img
+                            src={img12}
+                            alt="image"
+                            className="showOnBtn"
+                            loading="lazy"
+                        />
+                        <img
+                            src={img14}
+                            alt="image"
+                            className="showOnBtn"
+                            loading="lazy"
+                        />
+                        <img
+                            src={img19}
+                            alt="image"
+                            className="showOnBtn"
+                            loading="lazy"
+                        />
                     </div>
                 </div>
                 <button
