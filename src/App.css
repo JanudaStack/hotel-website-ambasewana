@@ -393,7 +393,7 @@
 .card-container-inner {
     display: flex;
     width: 100%;
-    margin-bottom: 15vh;
+    /* margin-bottom: 15vh; */
 }
 
 .card {
@@ -441,7 +441,53 @@ i.ri {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 120px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
+}
+
+.showOnBtn {
+    display: none;
+}
+
+.hideImgBtn {
+    display: none;
+}
+
+.ShowImgBtn {
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: var(--p-font);
+    font-size: 1.1rem;
+    transition: 0.3s ease;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ShowImgBtn:hover {
+    background: var(--main-clr);
+    cursor: pointer;
+}
+
+.hideImgBtn {
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: var(--p-font);
+    font-size: 1.1rem;
+    transition: 0.3s ease;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.hideImgBtn:hover {
+    background: var(--main-clr);
+    cursor: pointer;
 }
 
 .heading {
@@ -524,7 +570,7 @@ i.ri {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .event-card {
@@ -587,8 +633,8 @@ i.ri {
 }
 
 .event-card:hover .card-content {
-    height: auto;
-    min-height: 60%;
+    height: 60%;
+    /* min-height: 60%; */
     overflow: hidden;
 }
 

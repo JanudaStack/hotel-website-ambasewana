@@ -1,7 +1,7 @@
 const Card = () => {
     return (
         <>
-            <div className="section-spacing-2"></div>
+            {/* <div className="section-spacing-2"></div> */}
             <div className="card-container">
                 <div className="heading">
                     <h2>Our Amenities</h2>
