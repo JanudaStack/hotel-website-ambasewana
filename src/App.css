@@ -455,7 +455,7 @@ i.ri {
 .ShowImgBtn {
     padding: 10px 30px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 20px;
     border: none;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -474,7 +474,7 @@ i.ri {
 .hideImgBtn {
     padding: 10px 30px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 20px;
     border: none;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -495,6 +495,7 @@ i.ri {
     /* padding-bottom: 50px; */
     margin-bottom: 80px;
 }
+
 .heading h2 {
     font-family: var(--heading-font);
     text-align: center;
@@ -746,11 +747,11 @@ i.ri {
     width: 100%;
     text-align: justify;
 }
-h2 {
-}
 
 .box p {
-    font-size: 2rem;
+    font-family: var(--p-font);
+    font-size: 1.3rem;
+    /* line-height: 4vh; */
 }
 
 iframe {

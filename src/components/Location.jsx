@@ -9,14 +9,21 @@ const Location = () => {
                 <div className="map-container">
                     <div className="box">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Aspernatur at perspiciatis, error sequi veniam
-                            dignissimos. Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit. Aliquam necessitatibus numquam,
-                            molestias sunt voluptates vero. Odit eaque at
-                            consequuntur maiores minima accusantium, quisquam
-                            nemo id repudiandae qui laboriosam tempore
-                            aspernatur?
+                            Nestled in the heart of Ussapitiya, Hotel Ambasewana
+                            Walawwa is surrounded by breathtaking natural
+                            beauty, cultural heritage, and serene landscapes.
+                            Conveniently located away from the hustle and
+                            bustle, our hotel offers a perfect retreat for
+                            relaxation while still being close to key
+                            attractions. Guests can explore scenic waterfalls,
+                            ancient temples, lush green forests, and local
+                            markets, making it an ideal destination for nature
+                            lovers, adventure seekers, and cultural explorers
+                            alike. Whether you&aposre here for a peaceful
+                            getaway or an exciting adventure, our location
+                            ensures an unforgettable experience. <br />
+                            <br />
+                            🌿 Discover the beauty of Ussapitiya with us!
                         </p>
                     </div>
                     <iframe
