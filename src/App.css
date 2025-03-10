@@ -576,6 +576,16 @@ i.ri {
     }
 }
 
+@media (max-width: 472px) {
+    .dream img {
+        filter: grayscale(0);
+    }
+
+    .dream img:hover {
+        cursor: pointer;
+    }
+}
+
 /* === Events === */
 
 .event-container {
