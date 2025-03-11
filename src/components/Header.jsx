@@ -62,6 +62,12 @@ function Header() {
                     <li className="hideOnMobile">
                         <a href="">About Us</a>
                     </li>
+                    <button className="learn-more">
+                        <span className="circle" aria-hidden="true">
+                            <span className="icon arrow"></span>
+                        </span>
+                        <span className="button-text">Book Now</span>
+                    </button>
                     <li className="menu-btn" onClick={showSidebar}>
                         <a>
                             <i className="bx bx-menu"></i>
