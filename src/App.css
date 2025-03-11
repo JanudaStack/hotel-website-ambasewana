@@ -33,7 +33,7 @@
 
 .navbar a {
     height: 100%;
-    padding: 0 20px;
+    padding: 0 35px;
     display: flex;
     font-family: var(--p-font);
     font-weight: 500;
@@ -50,7 +50,7 @@
 }
 
 .logo {
-    margin-right: auto;
+    /* margin-right: auto; */
 }
 .logo img {
     width: 135px;
