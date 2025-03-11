@@ -577,6 +577,7 @@ i.ri {
     transition: 0.3s ease;
     font-weight: 500;
     text-transform: uppercase;
+    background: #ffffff;
 }
 
 .ShowImgBtn:hover {
@@ -596,6 +597,7 @@ i.ri {
     transition: 0.3s ease;
     font-weight: 500;
     text-transform: uppercase;
+    background: #ffffff;
 }
 
 .hideImgBtn:hover {
