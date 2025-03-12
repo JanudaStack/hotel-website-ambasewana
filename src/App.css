@@ -225,9 +225,11 @@ button:hover .button-text {
     padding: 10px 15px;
     background: var(--main-clr);
     transition: 0.3s ease;
+    color: #fff;
 }
 
 .btn-text button:hover {
+    color: #000000;
     background: #fff;
 }
 
