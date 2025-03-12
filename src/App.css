@@ -33,7 +33,7 @@
 
 .navbar a {
     height: 100%;
-    padding: 0 35px;
+    padding: 0 20px;
     display: flex;
     font-family: var(--p-font);
     font-weight: 500;
@@ -50,7 +50,7 @@
 }
 
 .logo {
-    /* margin-right: auto; */
+    margin-right: auto;
 }
 .logo img {
     width: 135px;
@@ -212,6 +212,20 @@ button:hover .button-text {
     color: #fff;
 }
 
+.book-now {
+    display: none;
+    margin-top: 1.3rem;
+}
+
+.btn-text button {
+    font-weight: 500;
+    font-family: var(--p-font);
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background: var(--main-clr);
+}
+
 @media (max-width: 947px) {
     .menu-btn {
         display: block;
@@ -219,6 +233,13 @@ button:hover .button-text {
     .hideOnMobile {
         display: none;
     }
+    .book-now {
+        display: block;
+    }
+    button.learn-more {
+        display: none;
+    }
+
     /* .sidebar a {
         font-size: 1.3rem;
     } */
@@ -241,6 +262,9 @@ button:hover .button-text {
     }
 } */
 
+@media (max-width: 697px) {
+}
+
 @media (max-width: 387px) {
     .close-btn {
         top: -21%;
@@ -254,6 +278,15 @@ button:hover .button-text {
 @media (max-width: 375px) {
     .logo img {
         width: 105px;
+    }
+    .btn-text button {
+        /* font-weight: 500;
+        font-family: var(--p-font);
+        text-transform: uppercase;
+        border-radius: 20px;
+        padding: 10px 15px;
+        background: var(--main-clr); */
+        font-size: 0.8rem;
     }
 }
 

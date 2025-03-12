@@ -83,7 +83,12 @@ function Header() {
                         Welcome to Hotel <br />
                         <span>Ambasewana</span>{' '}
                     </h2>
-                    <p>- Where Heritage Meets Luxury!</p>
+                    <p> Where Heritage Meets Luxury!</p>
+                    <div className="book-now">
+                        <div className="btn-text">
+                            <button>Book Now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
