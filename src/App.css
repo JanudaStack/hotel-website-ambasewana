@@ -230,7 +230,7 @@ button:hover .button-text {
 
 .btn-text button:hover {
     color: #000000;
-    background: #fff;
+    background: #ffffff;
 }
 
 .animated-button {
@@ -875,7 +875,14 @@ i.ri {
     padding: 10px 20px;
     border-radius: 50px;
     color: #fff;
-    background-color: #000;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.3s ease;
+}
+
+.card-content a:hover {
+    background: #81774c;
+    border: none;
 }
 
 .card-content h3 {
@@ -1260,21 +1267,21 @@ form button .fa-solid {
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
-    background: #1877f2;
+    background: #81774c;
     color: #fff;
 }
 
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-    background: #1da1f2;
+    background: #81774c;
     color: #fff;
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-    background: #e4405f;
+    background: #81774c;
     color: #fff;
 }
 

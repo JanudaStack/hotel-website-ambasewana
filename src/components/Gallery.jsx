@@ -19,6 +19,8 @@ import img18 from '../assets/Image-Gallery/18.jpg';
 import img19 from '../assets/Image-Gallery/19.jpg';
 // import img20 from '../assets/Image-Gallery/20.jpg';
 import img21 from '../assets/Image-Gallery/21.jpg';
+import img22 from '../assets/Image-Gallery/22.jpg';
+import img23 from '../assets/Image-Gallery/23.jpg';
 
 function Gallery() {
     const showDreamImages = () => {
@@ -71,7 +73,7 @@ function Gallery() {
                         <img src={img10} alt="image" />
                         <img src={img8} alt="image" />
                         <img
-                            src={img7}
+                            src={img6}
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"
@@ -91,7 +93,7 @@ function Gallery() {
                     </div>
                     <div className="dream">
                         <img src={img18} alt="image" />
-                        <img src={img6} alt="image" />
+                        <img src={img22} alt="image" />
                         <img
                             src={img12}
                             alt="image"
@@ -105,7 +107,7 @@ function Gallery() {
                             loading="lazy"
                         />
                         <img
-                            src={img19}
+                            src={img23}
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"
