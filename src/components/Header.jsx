@@ -62,12 +62,6 @@ function Header() {
                     <li className="hideOnMobile">
                         <a href="">About Us</a>
                     </li>
-                    <button className="learn-more">
-                        <span className="circle" aria-hidden="true">
-                            <span className="icon arrow"></span>
-                        </span>
-                        <span className="button-text">Book Now</span>
-                    </button>
                     <li className="menu-btn" onClick={showSidebar}>
                         <a>
                             <i className="bx bx-menu"></i>
@@ -84,9 +78,29 @@ function Header() {
                         <span>Ambasewana</span>{' '}
                     </h2>
                     <p> Where Heritage Meets Luxury!</p>
+                    <button className="animated-button">
+                        <svg
+                            viewBox="0 0 24 24"
+                            className="arr-2"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                        </svg>
+                        <span className="text">Book Now</span>
+                        <span className="circle"></span>
+                        <svg
+                            viewBox="0 0 24 24"
+                            className="arr-1"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                        </svg>
+                    </button>
                     <div className="book-now">
                         <div className="btn-text">
-                            <button>Book Now</button>
+                            <button>
+                                Book Now <i className="ri-arrow-right-line"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
