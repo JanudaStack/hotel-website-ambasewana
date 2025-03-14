@@ -4,7 +4,7 @@ import img3 from '../assets/Image-Gallery/3.jpg';
 // import img4 from '../assets/Image-Gallery/4.jpg';
 import img5 from '../assets/Image-Gallery/5.jpg';
 import img6 from '../assets/Image-Gallery/6.jpg';
-import img7 from '../assets/Image-Gallery/7.jpg';
+// import img7 from '../assets/Image-Gallery/7.jpg';
 import img8 from '../assets/Image-Gallery/8.jpg';
 // import img9 from '../assets/Image-Gallery/9.jpg';
 import img10 from '../assets/Image-Gallery/10.jpg';
@@ -16,7 +16,7 @@ import img14 from '../assets/Image-Gallery/14.jpg';
 // import img16 from '../assets/Image-Gallery/16.jpg';
 // import img17 from '../assets/Image-Gallery/17.jpg';
 import img18 from '../assets/Image-Gallery/18.jpg';
-import img19 from '../assets/Image-Gallery/19.jpg';
+// import img19 from '../assets/Image-Gallery/19.jpg';
 // import img20 from '../assets/Image-Gallery/20.jpg';
 import img21 from '../assets/Image-Gallery/21.jpg';
 import img22 from '../assets/Image-Gallery/22.jpg';
@@ -47,7 +47,7 @@ function Gallery() {
 
     return (
         <>
-            <div className="gallery__container">
+            <div className="gallery__container" id="gallery">
                 <div className="heading">
                     <h2>Gallery</h2>
                 </div>

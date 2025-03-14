@@ -5,7 +5,7 @@ import img3 from '../assets/Events/3.jpg';
 const Events = () => {
     return (
         <>
-            <div className="event-container">
+            <div className="event-container" id="events&func">
                 <div className="heading">
                     <h2>Events & Functions</h2>
                 </div>

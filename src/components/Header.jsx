@@ -27,22 +27,22 @@ function Header() {
                         <i className="bx bx-x"></i>
                     </li>
                     <li>
-                        <a href="">About Us</a>
+                        <a href="#about">About Us</a>
                     </li>
                     <li>
-                        <a href="">Rooms & Accommodation</a>
+                        <a href="#rooms&acco">Rooms & Accommodation</a>
                     </li>
                     <li>
                         <a href="">Restaurant & Dining</a>
                     </li>
                     <li>
-                        <a href="">Events & Functions</a>
+                        <a href="#events&func">Events & Functions</a>
                     </li>
                     <li>
-                        <a href="">Gallery</a>
+                        <a href="#gallery">Gallery</a>
                     </li>
                     <li>
-                        <a href="">Location & Contact</a>
+                        <a href="#location">Location & Contact</a>
                     </li>
                 </ul>
                 <ul className="navbar">
@@ -52,24 +52,24 @@ function Header() {
                         </a>
                     </li>
                     <li className="hideOnMobile">
-                        <a href="">Rooms & Accommodation</a>
+                        <a href="#about">About Us</a>
                     </li>
-
+                    <li className="hideOnMobile">
+                        <a href="#events&func">Events & Functions</a>
+                    </li>
+                    <li className="hideOnMobile">
+                        <a href="#rooms&acco">Rooms & Accommodation</a>
+                    </li>
+                    <li className="hideOnMobile">
+                        <a href="#gallery">Gallery</a>
+                    </li>
                     {/* <li className="hideOnMobile">
                         <a href="">Restaurant & Dining</a>
                     </li> */}
                     <li className="hideOnMobile">
-                        <a href="">Events & Functions</a>
+                        <a href="#location">Location & Contact</a>
                     </li>
-                    <li className="hideOnMobile">
-                        <a href="">Gallery</a>
-                    </li>
-                    <li className="hideOnMobile">
-                        <a href="">Location & Contact</a>
-                    </li>
-                    <li className="hideOnMobile">
-                        <a href="">About Us</a>
-                    </li>
+
                     <li className="menu-btn" onClick={showSidebar}>
                         <a>
                             <i className="bx bx-menu"></i>

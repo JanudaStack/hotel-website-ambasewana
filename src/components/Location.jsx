@@ -1,7 +1,7 @@
 const Location = () => {
     return (
         <>
-            <div className="location-container">
+            <div className="location-container" id="location">
                 <div className="heading">
                     <h2>Our Location</h2>
                 </div>

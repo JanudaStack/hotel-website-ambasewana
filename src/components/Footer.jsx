@@ -33,19 +33,20 @@ const Footer = () => {
                         <h3>Links</h3>
                         <ul>
                             <li>
-                                <a href="">Rooms & Accomodation</a>
+                                <a href="#about">About</a>
                             </li>
                             <li>
-                                <a href="">Events & Functions</a>
+                                <a href="#gallery">Gallery</a>
                             </li>
                             <li>
-                                <a href="">Gallery</a>
+                                <a href="#about">Rooms & Accomodation</a>
                             </li>
                             <li>
-                                <a href="">Location & Contact</a>
+                                <a href="#events&func">Events & Functions</a>
                             </li>
+
                             <li>
-                                <a href="">About</a>
+                                <a href="#location">Location & Contact</a>
                             </li>
                         </ul>
                     </div>

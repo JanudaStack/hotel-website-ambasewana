@@ -5,7 +5,7 @@ import imgThree from '../assets/rooms/room-3.jpg';
 const Rooms = () => {
     return (
         <>
-            <div className="room-container">
+            <div className="room-container" id="rooms&acco">
                 <div className="heading">
                     <h2>Rooms & Accomodations</h2>
                 </div>
