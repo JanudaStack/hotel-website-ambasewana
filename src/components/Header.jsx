@@ -1,4 +1,5 @@
 import logo from '../assets/logo/logo-1.png';
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
     const showSidebar = () => {
@@ -10,6 +11,13 @@ function Header() {
         const sidebar = document.querySelector('.sidebar');
         sidebar.style.display = 'none';
     };
+
+    let navigate = useNavigate();
+    const routeChange = () => {
+        let path = `/booking`;
+        navigate(path);
+    };
+
     return (
         <>
             <div className="bg-img"></div>
@@ -78,7 +86,7 @@ function Header() {
                         <span>Ambasewana</span>{' '}
                     </h2>
                     <p> Where Heritage Meets Luxury!</p>
-                    <button className="animated-button">
+                    <button className="animated-button" onClick={routeChange}>
                         <svg
                             viewBox="0 0 24 24"
                             className="arr-2"
