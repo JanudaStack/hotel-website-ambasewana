@@ -643,7 +643,7 @@ form .button input:hover {
     max-width: 100%;
     height: auto;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 50px 5px 50px 5px;
     transition: 0.3s ease;
     filter: brightness(0.85);
 }
@@ -1286,7 +1286,7 @@ footer {
     text-decoration: underline;
 }
 
-form {
+.col form {
     padding-bottom: 15px;
     display: flex;
     align-items: center;

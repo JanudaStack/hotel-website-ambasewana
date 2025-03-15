@@ -86,7 +86,7 @@ function Header() {
                         <span>Ambasewana</span>{' '}
                     </h2>
                     <p> Where Heritage Meets Luxury!</p>
-                    <button className="animated-button">
+                    <button className="animated-button" onClick={routeChange}>
                         <svg
                             viewBox="0 0 24 24"
                             className="arr-2"
