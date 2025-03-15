@@ -4,112 +4,119 @@ import styled from 'styled-components';
 const FormTwo = () => {
     return (
         <StyledWrapper>
-            <section className="container">
-                <header>Registration Form</header>
-                <form className="form" action="#">
-                    <div className="input-box">
-                        <label>Full Name</label>
-                        <input
-                            required
-                            placeholder="Enter full name"
-                            type="text"
-                        />
-                    </div>
-                    <div className="column">
+            <div className="area">
+                <section className="container">
+                    <header>
+                        <i className="ri-edit-2-line"></i>{' '}
+                        <span>Booking Form</span>
+                    </header>
+                    <form className="form" action="#">
                         <div className="input-box">
-                            <label>Phone Number</label>
+                            <label>Full Name</label>
                             <input
                                 required
-                                placeholder="Enter phone number"
-                                type="telephone"
-                            />
-                        </div>
-                        <div className="input-box">
-                            <label>Birth Date</label>
-                            <input
-                                required
-                                placeholder="Enter birth date"
-                                type="date"
-                            />
-                        </div>
-                    </div>
-                    <div className="gender-box">
-                        <label>Gender</label>
-                        <div className="gender-option">
-                            <div className="gender">
-                                <input
-                                    defaultChecked
-                                    name="gender"
-                                    id="check-male"
-                                    type="radio"
-                                />
-                                <label htmlFor="check-male">Male</label>
-                            </div>
-                            <div className="gender">
-                                <input
-                                    name="gender"
-                                    id="check-female"
-                                    type="radio"
-                                />
-                                <label htmlFor="check-female">Female</label>
-                            </div>
-                            <div className="gender">
-                                <input
-                                    name="gender"
-                                    id="check-other"
-                                    type="radio"
-                                />
-                                <label htmlFor="check-other">
-                                    Prefer not to say
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="input-box address">
-                        <label>Address</label>
-                        <input
-                            required
-                            placeholder="Enter street address"
-                            type="text"
-                        />
-                        <div className="column">
-                            <div className="select-box">
-                                <select>
-                                    <option hidden>Country</option>
-                                    <option>USA</option>
-                                    <option>UK</option>
-                                    <option>Germany</option>
-                                    <option>Japan</option>
-                                </select>
-                            </div>
-                            <input
-                                required
-                                placeholder="Enter your city"
+                                placeholder="Enter full name"
                                 type="text"
                             />
                         </div>
-                    </div>
-                    <button>Submit</button>
-                </form>
-            </section>
+                        <div className="column">
+                            <div className="input-box">
+                                <label>Phone Number</label>
+                                <input
+                                    required
+                                    placeholder="Enter phone number"
+                                    type="telephone"
+                                />
+                            </div>
+                            <div className="input-box">
+                                <label>Booking Date</label>
+                                <input
+                                    required
+                                    placeholder="Enter birth date"
+                                    type="date"
+                                />
+                            </div>
+                        </div>
+                        {/* <div className="gender-box">
+                            <label>Gender</label>
+                            <div className="gender-option">
+                                <div className="gender">
+                                    <input
+                                        defaultChecked
+                                        name="gender"
+                                        id="check-male"
+                                        type="radio"
+                                    />
+                                    <label htmlFor="check-male">Male</label>
+                                </div>
+                                <div className="gender">
+                                    <input
+                                        name="gender"
+                                        id="check-female"
+                                        type="radio"
+                                    />
+                                    <label htmlFor="check-female">Female</label>
+                                </div>
+                                <div className="gender">
+                                    <input
+                                        name="gender"
+                                        id="check-other"
+                                        type="radio"
+                                    />
+                                    <label htmlFor="check-other">
+                                        Prefer not to say
+                                    </label>
+                                </div>
+                            </div>
+                        </div> */}
+                        <div className="input-box address">
+                            <label>Address</label>
+                            <input
+                                required
+                                placeholder="Enter street address"
+                                type="text"
+                            />
+                            {/* <div className="column">
+                                <div className="select-box">
+                                    <select>
+                                        <option hidden>Country</option>
+                                        <option>USA</option>
+                                        <option>UK</option>
+                                        <option>Germany</option>
+                                        <option>Japan</option>
+                                    </select>
+                                </div>
+                                <input
+                                    required
+                                    placeholder="Enter your city"
+                                    type="text"
+                                />
+                            </div> */}
+                        </div>
+                        <button>Book Now</button>
+                    </form>
+                </section>
+            </div>
         </StyledWrapper>
     );
 };
 
 const StyledWrapper = styled.div`
     .container {
+        font-family: 'Montserrat', sans-serif;
         position: relative;
         max-width: 500px;
         width: 100%;
-        background: #fcedda;
+        background: #1e1e1e;
         padding: 25px;
         border-radius: 8px;
+        border: 2px solid #d4c56d;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     }
 
     .container header {
         font-size: 1.2rem;
-        color: #000;
+        color: #fff;
         font-weight: 600;
         text-align: center;
     }
@@ -124,7 +131,7 @@ const StyledWrapper = styled.div`
     }
 
     .input-box label {
-        color: #000;
+        color: #fff;
     }
 
     .form :where(.input-box input, .select-box) {
@@ -135,10 +142,10 @@ const StyledWrapper = styled.div`
         font-size: 1rem;
         color: #808080;
         margin-top: 5px;
-        border: 1px solid #ee4e34;
+        // border: 1px solid #ee4e34;
         border-radius: 6px;
         padding: 0 15px;
-        background: #fcedda;
+        background: rgb(255, 255, 255);
     }
 
     .input-box input:focus {
@@ -202,11 +209,11 @@ const StyledWrapper = styled.div`
         border-radius: 6px;
         cursor: pointer;
         transition: all 0.2s ease;
-        background: #ee4e34;
+        background: #d4c56d;
     }
 
     .form button:hover {
-        background: #ee3e34;
+        background: rgb(138, 129, 79);
     }
 `;
 
