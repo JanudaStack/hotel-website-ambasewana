@@ -1,7 +1,37 @@
 // import React from 'react';
+import axios from 'axios';
+import { useState } from 'react';
 import styled from 'styled-components';
 
 const FormTwo = () => {
+    const [formData, setFormData] = useState({
+        fullName: '',
+        phone: '',
+        address: '',
+        date: '',
+    });
+
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        try {
+            const response = await axios.post(
+                'http://localhost:4000/customerController',
+                formData
+            );
+            console.log(response.data);
+            alert('Booking Successfully!');
+        } catch (error) {
+            console.error(
+                'Error submitting form: ',
+                error.response?.data || error.message
+            );
+        }
+    };
     return (
         <StyledWrapper>
             <div className="area">
@@ -10,13 +40,15 @@ const FormTwo = () => {
                         <i className="ri-edit-2-line"></i>{' '}
                         <span>Booking Form</span>
                     </header>
-                    <form className="form" action="#">
+                    <form className="form" onSubmit={handleSubmit}>
                         <div className="input-box">
                             <label>Full Name</label>
                             <input
                                 required
+                                name="fullName"
                                 placeholder="Enter full name"
                                 type="text"
+                                onChange={handleChange}
                             />
                         </div>
                         <div className="column">
@@ -24,16 +56,20 @@ const FormTwo = () => {
                                 <label>Phone Number</label>
                                 <input
                                     required
+                                    name="phone"
                                     placeholder="Enter phone number"
                                     type="telephone"
+                                    onChange={handleChange}
                                 />
                             </div>
                             <div className="input-box">
                                 <label>Booking Date</label>
                                 <input
                                     required
+                                    name="date"
                                     placeholder="Enter birth date"
                                     type="date"
+                                    onChange={handleChange}
                                 />
                             </div>
                         </div>
@@ -73,8 +109,10 @@ const FormTwo = () => {
                             <label>Address</label>
                             <input
                                 required
+                                name="address"
                                 placeholder="Enter street address"
                                 type="text"
+                                onChange={handleChange}
                             />
                             {/* <div className="column">
                                 <div className="select-box">
@@ -93,7 +131,7 @@ const FormTwo = () => {
                                 />
                             </div> */}
                         </div>
-                        <button>Book Now</button>
+                        <button type="submit">Book Now</button>
                     </form>
                 </section>
             </div>
