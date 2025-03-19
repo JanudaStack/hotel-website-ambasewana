@@ -8,7 +8,7 @@ const FormTwo = () => {
         fullName: '',
         phone: '',
         address: '',
-        date: '',
+        bookingDate: '',
     });
 
     const handleChange = (e) => {
@@ -30,6 +30,7 @@ const FormTwo = () => {
                 'Error submitting form: ',
                 error.response?.data || error.message
             );
+            alert('Booking not successfull!');
         }
     };
     return (
@@ -66,7 +67,7 @@ const FormTwo = () => {
                                 <label>Booking Date</label>
                                 <input
                                     required
-                                    name="date"
+                                    name="bookingDate"
                                     placeholder="Enter birth date"
                                     type="date"
                                     onChange={handleChange}
