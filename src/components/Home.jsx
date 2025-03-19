@@ -1,7 +1,7 @@
 import logo from '../assets/logo/logo-1.png';
 import { useNavigate } from 'react-router-dom';
 
-function Header() {
+function Home() {
     const showSidebar = () => {
         const sidebar = document.querySelector('.sidebar');
         sidebar.style.display = 'flex';
@@ -117,4 +117,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Home;
