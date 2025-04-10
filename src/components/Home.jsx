@@ -12,7 +12,6 @@ function Home() {
         <>
             <div className="bg-img"></div>
             <Navbar />
-
             <div className="text-container">
                 <div className="text-content" data-aos="fade-right">
                     <h2>

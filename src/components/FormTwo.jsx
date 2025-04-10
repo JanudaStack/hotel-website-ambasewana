@@ -2,6 +2,7 @@
 import axios from 'axios';
 import { useState } from 'react';
 import styled from 'styled-components';
+import Navbar from './Navbar/Navbar';
 
 const FormTwo = () => {
     const [formData, setFormData] = useState({
@@ -34,47 +35,49 @@ const FormTwo = () => {
         }
     };
     return (
-        <StyledWrapper>
-            <div className="area">
-                <section className="container">
-                    <header>
-                        <i className="ri-edit-2-line"></i>{' '}
-                        <span>Booking Form</span>
-                    </header>
-                    <form className="form" onSubmit={handleSubmit}>
-                        <div className="input-box">
-                            <label>Full Name</label>
-                            <input
-                                required
-                                name="fullName"
-                                placeholder="Enter full name"
-                                type="text"
-                                onChange={handleChange}
-                            />
-                        </div>
-                        <div className="column">
+        <>
+            <Navbar />
+            <StyledWrapper>
+                <div className="area">
+                    <section className="container">
+                        <header>
+                            <i className="ri-edit-2-line"></i>{' '}
+                            <span>Booking Form</span>
+                        </header>
+                        <form className="form" onSubmit={handleSubmit}>
                             <div className="input-box">
-                                <label>Phone Number</label>
+                                <label>Full Name</label>
                                 <input
                                     required
-                                    name="phone"
-                                    placeholder="Enter phone number"
-                                    type="telephone"
+                                    name="fullName"
+                                    placeholder="Enter full name"
+                                    type="text"
                                     onChange={handleChange}
                                 />
                             </div>
-                            <div className="input-box">
-                                <label>Booking Date</label>
-                                <input
-                                    required
-                                    name="bookingDate"
-                                    placeholder="Enter birth date"
-                                    type="date"
-                                    onChange={handleChange}
-                                />
+                            <div className="column">
+                                <div className="input-box">
+                                    <label>Phone Number</label>
+                                    <input
+                                        required
+                                        name="phone"
+                                        placeholder="Enter phone number"
+                                        type="telephone"
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="input-box">
+                                    <label>Booking Date</label>
+                                    <input
+                                        required
+                                        name="bookingDate"
+                                        placeholder="Enter birth date"
+                                        type="date"
+                                        onChange={handleChange}
+                                    />
+                                </div>
                             </div>
-                        </div>
-                        {/* <div className="gender-box">
+                            {/* <div className="gender-box">
                             <label>Gender</label>
                             <div className="gender-option">
                                 <div className="gender">
@@ -106,16 +109,16 @@ const FormTwo = () => {
                                 </div>
                             </div>
                         </div> */}
-                        <div className="input-box address">
-                            <label>Address</label>
-                            <input
-                                required
-                                name="address"
-                                placeholder="Enter street address"
-                                type="text"
-                                onChange={handleChange}
-                            />
-                            {/* <div className="column">
+                            <div className="input-box address">
+                                <label>Address</label>
+                                <input
+                                    required
+                                    name="address"
+                                    placeholder="Enter street address"
+                                    type="text"
+                                    onChange={handleChange}
+                                />
+                                {/* <div className="column">
                                 <div className="select-box">
                                     <select>
                                         <option hidden>Country</option>
@@ -131,12 +134,13 @@ const FormTwo = () => {
                                     type="text"
                                 />
                             </div> */}
-                        </div>
-                        <button type="submit">Book Now</button>
-                    </form>
-                </section>
-            </div>
-        </StyledWrapper>
+                            </div>
+                            <button type="submit">Book Now</button>
+                        </form>
+                    </section>
+                </div>
+            </StyledWrapper>
+        </>
     );
 };
 
