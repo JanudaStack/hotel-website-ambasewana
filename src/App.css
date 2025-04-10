@@ -545,7 +545,7 @@ form .button input:hover {
     max-width: 100%;
     height: auto;
     justify-content: center;
-    border-radius: 50px 5px 50px 5px;
+    border-radius: 30px;
     transition: 0.3s ease;
     filter: brightness(0.85);
 }
