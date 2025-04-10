@@ -539,6 +539,7 @@ form .button input:hover {
     justify-content: center;
     width: 100%;
 }
+
 /* needs to change */
 .content img {
     max-width: 100%;
@@ -626,7 +627,7 @@ form .button input:hover {
     }
 
     #about {
-        font-size: 1.8rem;
+        /* font-size: 1.8rem; */
     }
 }
 
@@ -644,7 +645,7 @@ form .button input:hover {
 @media (max-width: 372px) {
     #about {
         font-size: 1.3rem;
-        line-height: 28px;
+        /* line-height: 28px; */
     }
     .content {
         padding: 0 10px;
