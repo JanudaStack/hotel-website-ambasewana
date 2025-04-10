@@ -2,16 +2,6 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 
 function Home() {
-    // const showSidebar = () => {
-    //     const sidebar = document.querySelector('.sidebar');
-    //     sidebar.style.display = 'flex';
-    // };
-
-    // const closeSidebar = () => {
-    //     const sidebar = document.querySelector('.sidebar');
-    //     sidebar.style.display = 'none';
-    // };
-
     let navigate = useNavigate();
     const routeChange = () => {
         let path = `/booking`;
