@@ -1,6 +1,6 @@
-import img1 from '../assets/Events/1-1.jpg';
-import img2 from '../assets/Events/2.jpg';
-import img3 from '../assets/Events/3.jpg';
+import img1 from '/assets/Events/1-1.jpg';
+import img2 from '/assets/Events/2.jpg';
+import img3 from '/assets/Events/3.jpg';
 
 const Events = () => {
     return (

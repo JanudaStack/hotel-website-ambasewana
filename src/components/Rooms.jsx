@@ -1,6 +1,6 @@
-import imgOne from '../assets/rooms/room-1.jpg';
-import imgTwo from '../assets/rooms/room-2.jpg';
-import imgThree from '../assets/rooms/room-3.jpg';
+import imgOne from '/assets/rooms/room-1.jpg';
+import imgTwo from '/assets/rooms/room-2.jpg';
+import imgThree from '/assets/rooms/room-3.jpg';
 
 const Rooms = () => {
     return (
