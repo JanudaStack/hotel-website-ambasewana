@@ -1,5 +1,3 @@
-import img1 from '/assets/Images/amba-1.jpg';
-
 const About = () => {
     return (
         <>
@@ -10,7 +8,11 @@ const About = () => {
                 </div>
                 <div className="content">
                     <div data-aos="fade-right">
-                        <img src={img1} alt="" height={'600px'} />
+                        <img
+                            src="/assets/Images/amba-1.jpg"
+                            alt=""
+                            height={'600px'}
+                        />
                     </div>
 
                     <div data-aos="fade-left">

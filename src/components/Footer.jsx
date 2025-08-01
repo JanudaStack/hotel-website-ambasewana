@@ -1,12 +1,14 @@
-import logo from '/assets/logo/logo-1.png';
-
 const Footer = () => {
     return (
         <>
             <footer>
                 <div className="row">
                     <div className="col">
-                        <img src={logo} alt="" className="footer-logo" />
+                        <img
+                            src="/assets/logo/logo-1.png"
+                            alt="site-logo"
+                            className="footer-logo"
+                        />
                         <p>
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Error, neque harum. Nesciunt laborum animi

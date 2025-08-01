@@ -1,27 +1,3 @@
-import img1 from '/assets/Image-Gallery/1.jpg';
-import img2 from '/assets/Image-Gallery/2.jpg';
-import img3 from '/assets/Image-Gallery/3.jpg';
-// import img4 from '../assets/Image-Gallery/4.jpg';
-import img5 from '/assets/Image-Gallery/5.jpg';
-import img6 from '/assets/Image-Gallery/6.jpg';
-// import img7 from '../assets/Image-Gallery/7.jpg';
-import img8 from '/assets/Image-Gallery/8.jpg';
-// import img9 from '../assets/Image-Gallery/9.jpg';
-import img10 from '/assets/Image-Gallery/10.jpg';
-import img11 from '/assets/Image-Gallery/11.jpg';
-import img12 from '/assets/Image-Gallery/12.jpg';
-// import img13 from '../assets/Image-Gallery/13.jpg';
-import img14 from '/assets/Image-Gallery/14.jpg';
-// import img15 from '../assets/Image-Gallery/15.jpg';
-// import img16 from '../assets/Image-Gallery/16.jpg';
-// import img17 from '../assets/Image-Gallery/17.jpg';
-import img18 from '/assets/Image-Gallery/18.jpg';
-// import img19 from '../assets/Image-Gallery/19.jpg';
-// import img20 from '../assets/Image-Gallery/20.jpg';
-import img21 from '/assets/Image-Gallery/21.jpg';
-import img22 from '/assets/Image-Gallery/22.jpg';
-import img23 from '/assets/Image-Gallery/23.jpg';
-
 function Gallery() {
     const showDreamImages = () => {
         const showImages = document.querySelectorAll('.showOnBtn');
@@ -53,16 +29,16 @@ function Gallery() {
                 </div>
                 <div className="image__container">
                     <div className="dream">
-                        <img src={img2} alt="image" />
-                        <img src={img11} alt="image" />
+                        <img src="/assets/Image-Gallery/1-1.jpg" alt="image" />
+                        <img src="/assets/Image-Gallery/1-2.jpg" alt="image" />
                         <img
-                            src={img3}
+                            src="/assets/Image-Gallery/1-3.jpg"
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"
                         />
                         <img
-                            src={img21}
+                            src="/assets/Image-Gallery/1-4.jpg"
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"
@@ -70,44 +46,44 @@ function Gallery() {
                         {/* <img src={img5} alt="image" /> */}
                     </div>
                     <div className="dream">
-                        <img src={img10} alt="image" />
-                        <img src={img8} alt="image" />
+                        <img src="/assets/Image-Gallery/2-1.jpg" alt="image" />
+                        <img src="/assets/Image-Gallery/2-2.jpg" alt="image" />
                         <img
-                            src={img6}
+                            src="/assets/Image-Gallery/2-3.jpg"
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"
                         />
                         <img
-                            src={img1}
+                            src="/assets/Image-Gallery/2-4.jpg"
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"
                         />
                         <img
-                            src={img5}
+                            src="/assets/Image-Gallery/2-5.jpg"
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"
                         />
                     </div>
                     <div className="dream">
-                        <img src={img18} alt="image" />
-                        <img src={img22} alt="image" />
+                        <img src="/assets/Image-Gallery/3-1.jpg" alt="image" />
+                        <img src="/assets/Image-Gallery/3-2.jpg" alt="image" />
                         <img
-                            src={img12}
+                            src="/assets/Image-Gallery/3-3.jpg"
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"
                         />
                         <img
-                            src={img14}
+                            src="/assets/Image-Gallery/3-4.jpg"
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"
                         />
                         <img
-                            src={img23}
+                            src="/assets/Image-Gallery/3-5.jpg"
                             alt="image"
                             className="showOnBtn"
                             loading="lazy"

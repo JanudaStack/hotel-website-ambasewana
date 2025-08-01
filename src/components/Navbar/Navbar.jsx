@@ -1,4 +1,3 @@
-import logo from '/assets/logo/logo-1.png';
 import '../Navbar/Navbar.css';
 
 const Navbar = () => {
@@ -41,7 +40,10 @@ const Navbar = () => {
                 <ul className="navbar">
                     <li className="logo">
                         <a href="#home">
-                            <img src={logo} alt="" />
+                            <img
+                                src="/assets/logo/logo-1.png"
+                                alt="site-logo"
+                            />
                         </a>
                     </li>
                     <li className="hideOnMobile">

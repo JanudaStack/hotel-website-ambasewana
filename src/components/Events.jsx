@@ -1,7 +1,3 @@
-import img1 from '/assets/Events/1-1.jpg';
-import img2 from '/assets/Events/2.jpg';
-import img3 from '/assets/Events/3.jpg';
-
 const Events = () => {
     return (
         <>
@@ -12,7 +8,7 @@ const Events = () => {
                 <div className="event-card-container">
                     <div className="card-area">
                         <div className="event-card">
-                            <img src={img1} alt="" />
+                            <img src="/assets/Events/1-1.jpg" alt="" />
                             <div className="card-content">
                                 <h3>Birthday Parties</h3>
                                 <p>
@@ -23,7 +19,7 @@ const Events = () => {
                             </div>
                         </div>
                         <div className="event-card">
-                            <img src={img3} alt="" />
+                            <img src="/assets/Events/3.jpg" alt="" />
                             <div className="card-content">
                                 <h3>Weddings</h3>
                                 <p>
@@ -34,7 +30,7 @@ const Events = () => {
                             </div>
                         </div>
                         <div className="event-card">
-                            <img src={img2} alt="" />
+                            <img src="/assets/Events/2.jpg" alt="" />
                             <div className="card-content">
                                 <h3>Night Parties</h3>
                                 <p>
