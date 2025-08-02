@@ -1,3 +1,5 @@
+import { galleryImgs } from '../../constants';
+
 function Gallery() {
     const showDreamImages = () => {
         const showImages = document.querySelectorAll('.showOnBtn');
@@ -28,67 +30,19 @@ function Gallery() {
                     <h2>Gallery</h2>
                 </div>
                 <div className="image__container">
-                    <div className="dream">
-                        <img src="/assets/Image-Gallery/1-1.jpg" alt="image" />
-                        <img src="/assets/Image-Gallery/1-2.jpg" alt="image" />
-                        <img
-                            src="/assets/Image-Gallery/1-3.jpg"
-                            alt="image"
-                            className="showOnBtn"
-                            loading="lazy"
-                        />
-                        <img
-                            src="/assets/Image-Gallery/1-4.jpg"
-                            alt="image"
-                            className="showOnBtn"
-                            loading="lazy"
-                        />
-                        {/* <img src={img5} alt="image" /> */}
-                    </div>
-                    <div className="dream">
-                        <img src="/assets/Image-Gallery/2-1.jpg" alt="image" />
-                        <img src="/assets/Image-Gallery/2-2.jpg" alt="image" />
-                        <img
-                            src="/assets/Image-Gallery/2-3.jpg"
-                            alt="image"
-                            className="showOnBtn"
-                            loading="lazy"
-                        />
-                        <img
-                            src="/assets/Image-Gallery/2-4.jpg"
-                            alt="image"
-                            className="showOnBtn"
-                            loading="lazy"
-                        />
-                        <img
-                            src="/assets/Image-Gallery/2-5.jpg"
-                            alt="image"
-                            className="showOnBtn"
-                            loading="lazy"
-                        />
-                    </div>
-                    <div className="dream">
-                        <img src="/assets/Image-Gallery/3-1.jpg" alt="image" />
-                        <img src="/assets/Image-Gallery/3-2.jpg" alt="image" />
-                        <img
-                            src="/assets/Image-Gallery/3-3.jpg"
-                            alt="image"
-                            className="showOnBtn"
-                            loading="lazy"
-                        />
-                        <img
-                            src="/assets/Image-Gallery/3-4.jpg"
-                            alt="image"
-                            className="showOnBtn"
-                            loading="lazy"
-                        />
-                        <img
-                            src="/assets/Image-Gallery/3-5.jpg"
-                            alt="image"
-                            className="showOnBtn"
-                            loading="lazy"
-                        />
-                    </div>
+                    {/* Loop through each column object in the gallerImgs array */}
+                    {galleryImgs.map((column) => (
+                        // Each 'dream' div represents a column, using a unique colId as the key
+                        <div key={column.colId} className="dream">
+                            {column.colData.map((imgSrc, imgId) => (
+                                <img
+                                    key={imgId}
+                                    src={imgSrc.imgPath}
+                                    alt="image"
+                                />
+                            ))}
+                        </div>
+                    ))}
                 </div>
                 <button
                     type="button"
