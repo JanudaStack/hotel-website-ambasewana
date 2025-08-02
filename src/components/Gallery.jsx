@@ -34,7 +34,9 @@ function Gallery() {
                     {galleryImgs.map((column) => (
                         // Each 'dream' div represents a column, using a unique colId as the key
                         <div key={column.colId} className="dream">
+                            {/* Loop through each image in the column's colData array */}
                             {column.colData.map((imgSrc, imgId) => (
+                                // Render each image with a unique key and image path
                                 <img
                                     key={imgId}
                                     src={imgSrc.imgPath}
