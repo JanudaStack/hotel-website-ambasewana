@@ -9,7 +9,7 @@ const About = () => {
                 <div className="content">
                     <div data-aos="fade-right">
                         <img
-                            src="/assets/Images/amba-1.jpg"
+                            src="/assets/about-image/about-us.jpg"
                             alt=""
                             height={'600px'}
                         />
