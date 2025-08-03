@@ -984,6 +984,8 @@ i.ri {
 }
 
 .room-card {
+    overflow: hidden;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -993,10 +995,9 @@ i.ri {
 }
 
 .room-card img {
+    display: block;
+    transition: transform 0.4s;
     width: 100%;
-    /* filter: grayscale(0.7); */
-    transition: 0.3s;
-    /* border-radius: 10px; */
 }
 
 .room-card-content {
@@ -1008,13 +1009,13 @@ i.ri {
     align-items: center;
 }
 
-.room-card:hover img {
-    /* filter: grayscale(0); */
+.room-card:hover .card-content {
+    height: 60%;
 }
 
-.room-card-content:hover {
+.room-card:hover img {
     cursor: pointer;
-    text-decoration: underline;
+    transform: scale(1.2);
 }
 
 /* ===Media Query=== */

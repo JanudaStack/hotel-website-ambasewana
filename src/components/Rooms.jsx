@@ -12,7 +12,7 @@ const Rooms = () => {
                                 src="/assets/rooms/room-3.jpg"
                                 alt="room-img"
                             />
-                            <div className="room-card-content">
+                            <div className="card-content">
                                 <h3>King Rooms</h3>
                             </div>
                         </div>
@@ -21,7 +21,7 @@ const Rooms = () => {
                                 src="/assets/rooms/room-1.jpg"
                                 alt="room-img"
                             />
-                            <div className="room-card-content">
+                            <div className="card-content">
                                 <h3>Couple Rooms</h3>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Rooms = () => {
                                 src="/assets/rooms/room-2.jpg"
                                 alt="room-img"
                             />
-                            <div className="room-card-content">
+                            <div className="card-content">
                                 <h3>Guest Rooms</h3>
                             </div>
                         </div>
