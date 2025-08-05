@@ -2,7 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-import Home from './components/Home';
+import Hero from './components/Hero';
 import About from './components/About';
 import Card from './components/Card';
 import Gallery from './components/Gallery';
@@ -18,8 +18,8 @@ function App() {
     }, []);
 
     return (
-        <>
-            <Home />
+        <main>
+            <Hero />
             <About />
             <Card />
             <Gallery />
@@ -27,7 +27,7 @@ function App() {
             <Rooms />
             <Location />
             <Footer />
-        </>
+        </main>
     );
 }
 
