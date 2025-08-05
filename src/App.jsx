@@ -9,9 +9,8 @@ import Gallery from './components/Gallery';
 import Events from './components/Events';
 import Rooms from './components/Rooms';
 import Location from './components/Location';
-import Footer from './components/Footer';
+import FooterNew from './components/FooterNew';
 import './App.css';
-import FooterNew from './components/Navbar/FooterNew';
 
 function App() {
     useEffect(() => {
@@ -27,7 +26,6 @@ function App() {
             <Events />
             <Rooms />
             <Location />
-            {/* <Footer /> */}
             <FooterNew />
         </main>
     );
