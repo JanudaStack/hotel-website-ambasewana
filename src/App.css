@@ -1150,6 +1150,7 @@ footer hr {
 }
 
 menu li a {
+    font-size: 0.85rem;
     transition: 0.25s;
 }
 
