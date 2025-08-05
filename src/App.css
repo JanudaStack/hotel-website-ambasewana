@@ -1112,7 +1112,7 @@ iframe:hover {
 
 /* ===Footer=== */
 
-footer {
+/* footer {
     margin-top: 10vh;
     width: 100%;
     position: relative;
@@ -1122,16 +1122,16 @@ footer {
     padding: 100px 0 30px;
     font-size: 13px;
     line-height: 20px;
-}
+} */
 
-.row {
+/* .row {
     width: 85%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-}
+} */
 
 .col {
     flex-basis: 25%;
@@ -1143,8 +1143,8 @@ footer {
     /* flex-basis: 15%; */
 }
 
-.footer-logo {
-    width: 150px;
+.footer-logo img {
+    width: 100px;
     margin-bottom: 30px;
     cursor: pointer;
 }
@@ -1350,5 +1350,154 @@ hr {
     .col:nth-child(2),
     .col:nth-child(3) {
         flex-basis: 100%;
+    }
+}
+
+footer {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer hr {
+    border: 1px solid hsla(0, 0%, 100%, 0.078);
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo img {
+    width: 8em;
+}
+
+.footer-links {
+    padding: 4% 5%;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links menu {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
+}
+
+menu li a {
+    transition: 0.25s;
+}
+
+menu li a:hover {
+    color: #d4c56d;
+}
+
+.hotel-details {
+    text-align: center;
+}
+
+.text-address {
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    font-size: 0.85rem;
+}
+
+.text-telephone {
+    padding-top: 1rem;
+    font-size: 0.85rem;
+}
+
+.text-mail {
+    padding-top: 1rem;
+    font-size: 0.85rem;
+}
+
+.social-links {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-links a svg path {
+    transition: 0.25s ease;
+}
+
+.social-links a:hover svg path {
+    fill: #a39752;
+}
+
+.copyrights {
+    padding: 1rem 5%;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.copyrights {
+    font-size: 0.8rem;
+}
+
+.terms {
+    text-align: center;
+    /* display: flex; */
+}
+
+.terms p a:hover {
+    text-decoration: underline;
+}
+
+.text-copyright {
+    /* margin-left: auto; */
+    padding-top: 0.8rem;
+}
+
+.author {
+    padding-top: 0.8rem;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .footer-links {
+        padding: 4% 5%;
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-links menu {
+        text-align: left;
+    }
+
+    .hotel-details {
+        order: -2;
+    }
+
+    .hotel-details {
+        text-align: left;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+
+    .copyrights {
+        display: flex;
+    }
+
+    .terms {
+        text-align: left;
+    }
+
+    .author {
+        padding-top: 0;
+        text-align: right;
     }
 }

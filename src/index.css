@@ -29,3 +29,12 @@ body {
     color: var(--text-clr);
     min-height: 100vh;
 }
+
+a {
+    color: inherit;
+}
+
+p,
+a {
+    font-family: var(--p-font);
+}
