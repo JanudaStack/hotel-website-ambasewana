@@ -14,7 +14,9 @@ import './App.css';
 
 function App() {
     useEffect(() => {
-        AOS.init();
+        AOS.init({
+            once: true, // Animations will only happen once
+        });
     }, []);
 
     return (

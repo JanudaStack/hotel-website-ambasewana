@@ -41,6 +41,7 @@ function Gallery() {
                                     key={imgId}
                                     src={imgSrc.imgPath}
                                     alt="image"
+                                    data-aos="zoom-in"
                                 />
                             ))}
                         </div>

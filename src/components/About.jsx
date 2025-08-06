@@ -7,7 +7,7 @@ const About = () => {
                     <h2>About</h2>
                 </div>
                 <div className="content">
-                    <div data-aos="fade-right">
+                    <div data-aos="zoom-in">
                         <img
                             src="/assets/about-image/about-us.jpg"
                             alt=""
@@ -15,7 +15,7 @@ const About = () => {
                         />
                     </div>
 
-                    <div data-aos="fade-left">
+                    <div data-aos="zoom-in">
                         <p id="about">
                             <span className="heading-desc">
                                 Your serene escape in timeless luxury
