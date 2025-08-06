@@ -1,3 +1,5 @@
+import { rooms } from '../../constants';
+
 const Rooms = () => {
     return (
         <>
@@ -7,33 +9,18 @@ const Rooms = () => {
                 </div>
                 <div className="room-card-container">
                     <div className="room-card-area">
-                        <div className="room-card">
-                            <img
-                                src="/assets/rooms/room-3.jpg"
-                                alt="room-img"
-                            />
-                            <div className="card-content">
-                                <h3>King Rooms</h3>
+                        {rooms.map((room) => (
+                            <div
+                                key={room.id}
+                                className="room-card"
+                                data-aos="zoom-in"
+                            >
+                                <img src={room.imgPath} alt={room.id} />
+                                <div className="card-content">
+                                    <h3>{room.name}</h3>
+                                </div>
                             </div>
-                        </div>
-                        <div className="room-card">
-                            <img
-                                src="/assets/rooms/room-1.jpg"
-                                alt="room-img"
-                            />
-                            <div className="card-content">
-                                <h3>Couple Rooms</h3>
-                            </div>
-                        </div>
-                        <div className="room-card">
-                            <img
-                                src="/assets/rooms/room-2.jpg"
-                                alt="room-img"
-                            />
-                            <div className="card-content">
-                                <h3>Guest Rooms</h3>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>

@@ -95,4 +95,40 @@ const navLinks = [
     },
 ];
 
-export { galleryImgs, navLinks };
+const events = [
+    {
+        id: 'birthdays',
+        name: 'Birthday Parties',
+        imgPath: '/assets/event-images/event-1.jpg',
+    },
+    {
+        id: 'weddings',
+        name: 'Weddings',
+        imgPath: '/assets/event-images/event-2.jpg',
+    },
+    {
+        id: 'parties',
+        name: 'Night Parties',
+        imgPath: '/assets/event-images/event-3.jpg',
+    },
+];
+
+const rooms = [
+    {
+        id: 'king-rooms',
+        name: 'King Rooms',
+        imgPath: '/assets/rooms/room-3.jpg',
+    },
+    {
+        id: 'couple-rooms',
+        name: 'Couple Rooms',
+        imgPath: '/assets/rooms/room-1.jpg',
+    },
+    {
+        id: 'guest-rooms',
+        name: 'Guest Rooms',
+        imgPath: '/assets/rooms/room-2.jpg',
+    },
+];
+
+export { galleryImgs, navLinks, events, rooms };

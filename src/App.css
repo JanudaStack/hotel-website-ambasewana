@@ -262,9 +262,6 @@ button:hover .button-text {
     }
 } */
 
-@media (max-width: 697px) {
-}
-
 @media (max-width: 387px) {
     .close-btn {
         top: -21%;
@@ -889,10 +886,10 @@ i.ri {
 
 .card-content {
     text-align: center;
-    background: linear-gradient(transparent, var(--main-clr) 58%);
+    background: linear-gradient(transparent, var(--main-clr) 80%);
     width: 100%;
     position: absolute;
-    height: 0;
+    height: 60%;
     left: 0;
     bottom: 0;
     overflow: hidden;
@@ -932,10 +929,16 @@ i.ri {
     font-style: italic;
 }
 
-.event-card:hover .card-content {
-    height: 60%;
-    /* min-height: 60%; */
-    overflow: hidden;
+@media (min-width: 1024px) {
+    .card-content {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .event-card:hover .card-content {
+        height: 60%;
+        overflow: hidden;
+    }
 }
 
 /* === Media Queries */
@@ -1105,6 +1108,7 @@ iframe:hover {
 
 /* ===Footer=== */
 footer {
+    padding: 0 3%;
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
@@ -1121,7 +1125,7 @@ footer hr {
 
 .footer-logo img {
     width: 8em;
-    margin-bottom: 30px;
+    margin-bottom: 4rem;
     cursor: pointer;
 }
 
@@ -1156,7 +1160,7 @@ menu li a:hover {
 }
 
 .text-address {
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.04rem;
     line-height: 1.5rem;
     font-size: 0.85rem;
 }
