@@ -432,14 +432,14 @@ form .button input:hover {
 }
 /* section */
 
-.text-container {
+.hero-text-container {
     flex-direction: column;
     justify-content: center;
     display: flex;
     align-items: flex-start;
 }
 
-.text-content {
+.hero-text {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -448,36 +448,29 @@ form .button input:hover {
     max-width: 90%; /* Ensures it doesn’t overflow */
 }
 
-.text-container h2 {
+.hero-text-container h2 {
     font-family: var(--heading-font);
     font-weight: 500;
     font-size: 4rem;
     margin: 0;
 }
 
-/* .text-container h2 span {
-    color: var(--main-clr);
-} */
-
-.text-container p {
+.hero-text-container p {
+    letter-spacing: 0.1rem;
     color: var(--main-clr);
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0;
     font-family: var(--heading-description-font);
     font-style: italic;
 }
 
 @media (max-width: 947px) {
-    .text-container {
+    .hero-text-container {
         align-items: center;
     }
 
-    .text-content {
-        text-align: center;
-    }
-
-    .text-content {
+    .hero-text {
         width: 100%;
         text-align: center;
         bottom: 5%;
@@ -487,32 +480,32 @@ form .button input:hover {
     }
 }
 @media (max-width: 768px) {
-    .text-container h2 {
+    .hero-text-container h2 {
         font-size: 3.2rem;
     }
 
-    .text-container p {
+    .hero-text-container p {
         padding-top: 10px;
         font-size: 2.2rem;
     }
 }
 @media (max-width: 540px) {
-    .text-container h2 {
+    .hero-text-container h2 {
         font-size: 3rem;
     }
 }
 @media (max-width: 480px) {
-    .text-container h2 {
+    .hero-text-container h2 {
         font-size: 2.6rem;
     }
 
-    .text-container p {
+    .hero-text-container p {
         font-size: 1.5rem;
     }
 }
 
 @media (max-width: 375px) {
-    .text-container h2 {
+    .hero-text-container h2 {
         font-size: 2.2rem;
     }
 }
@@ -788,7 +781,7 @@ i.ri {
 .heading h2 {
     font-family: var(--heading-font);
     text-align: center;
-    font-size: 3em;
+    font-size: 3.2rem;
     font-weight: bolder;
     border-bottom: 3px solid var(--main-clr);
     padding-bottom: 10px;
@@ -1194,6 +1187,7 @@ menu li a:hover {
 }
 
 .copyrights {
+    color: hsla(0, 0%, 100%, 0.304);
     padding: 1rem 5%;
     justify-content: space-between;
     align-items: flex-start;

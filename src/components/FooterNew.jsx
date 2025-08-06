@@ -1,4 +1,4 @@
-import React from 'react';
+import { navLinks } from '../../constants';
 
 const FooterNew = () => {
     const date = new Date();
@@ -11,21 +11,11 @@ const FooterNew = () => {
                 <hr />
                 <div className="footer-links">
                     <menu>
-                        <li>
-                            <a href="#">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#">Events & Functions</a>
-                        </li>
-                        <li>
-                            <a href="#">Rooms & Accomodation</a>
-                        </li>
-                        <li>
-                            <a href="#">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="#">Location & Contact</a>
-                        </li>
+                        {navLinks.map((link) => (
+                            <li key={link.id}>
+                                <a href={`#${link.id}`}>{link.title}</a>
+                            </li>
+                        ))}
                     </menu>
                     <menu>
                         <li>

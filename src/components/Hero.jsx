@@ -12,8 +12,8 @@ function Hero() {
         <>
             <div className="bg-img"></div>
             <Navbar />
-            <div className="text-container">
-                <div className="text-content" data-aos="fade-right">
+            <div className="hero-text-container">
+                <div className="hero-text" data-aos="fade-right">
                     <h2>
                         {' '}
                         Welcome to Hotel <br />

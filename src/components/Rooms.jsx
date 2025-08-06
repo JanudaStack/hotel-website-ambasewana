@@ -1,7 +1,7 @@
 const Rooms = () => {
     return (
         <>
-            <div className="room-container" id="rooms&acco">
+            <div className="room-container" id="rooms">
                 <div className="heading">
                     <h2>Rooms & Accomodations</h2>
                 </div>
