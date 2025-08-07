@@ -37,12 +37,9 @@ function Gallery() {
                             {/* Loop through each image in the column's colData array */}
                             {column.colData.map((imgSrc, imgId) => (
                                 // Render each image with a unique key and image path
-                                <img
-                                    key={imgId}
-                                    src={imgSrc.imgPath}
-                                    alt="image"
-                                    data-aos="zoom-in"
-                                />
+                                <div key={imgId} data-aos="zoom-in">
+                                    <img src={imgSrc.imgPath} alt="image" />
+                                </div>
                             ))}
                         </div>
                     ))}

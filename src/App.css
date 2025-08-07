@@ -710,7 +710,7 @@ i.ri {
     max-width: 100%;
 }
 
-/*=== Image Gallery ===*/
+/* === Image Gallery === */
 
 .gallery__container {
     display: flex;
@@ -765,13 +765,10 @@ i.ri {
 
 .hideImgBtn:hover {
     background: #ffffff;
-
     cursor: pointer;
 }
 
 .heading {
-    /* width: 50%; */
-    /* padding-bottom: 50px; */
     margin-bottom: 80px;
 }
 
@@ -786,7 +783,7 @@ i.ri {
 
 .image__container {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     justify-content: space-between;
     /* align-items: center; */
 }
@@ -794,14 +791,14 @@ i.ri {
 .dream {
     display: flex;
     flex-direction: column;
-    width: 32.5%;
+    width: 100%;
 }
 
 .dream img {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 5px;
-    filter: grayscale(0.55);
+    filter: grayscale(0);
     transition: 0.3s ease;
 }
 
@@ -811,33 +808,21 @@ i.ri {
     transform: scale(1.02);
 }
 
-/* === Media queries === */
-
-@media (max-width: 769px) {
+@media (min-width: 769px) {
     .image__container {
-        flex-direction: column;
+        flex-direction: row;
     }
+
     .dream {
-        width: 100%;
+        width: 32.5%;
     }
-}
 
-@media (max-width: 643px) {
-    .heading {
-        /* width: 100%; */
-    }
-    .heading h2 {
-        font-size: 2em;
-    }
-}
-
-@media (max-width: 472px) {
     .dream img {
-        filter: grayscale(0);
+        filter: grayscale(0.5);
     }
 
     .dream img:hover {
-        cursor: pointer;
+        filter: grayscale(0);
     }
 }
 
@@ -848,7 +833,7 @@ i.ri {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 120px 20px 20px 20px;
+    margin: 7.5rem 2rem 1.25rem;
 }
 
 .event-card-container {
@@ -859,8 +844,7 @@ i.ri {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    /* width: 100%; */
+    gap: 1.2rem;
 }
 
 .event-card {
@@ -941,7 +925,7 @@ i.ri {
     }
 }
 
-/* === Media Queries */
+/* Media Queries */
 
 @media (max-width: 974px) {
     .card-area {
@@ -958,14 +942,14 @@ i.ri {
     }
 }
 
-/* ===Rooms & Accomodations */
+/* Rooms & Accomodations */
 
 .room-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 120px 20px 0 20px;
+    margin: 7.5rem 2rem 1.25rem;
 }
 
 .room-card-container {
@@ -976,7 +960,7 @@ i.ri {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 1.2rem;
 }
 
 .room-card {
