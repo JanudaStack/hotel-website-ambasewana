@@ -2,7 +2,6 @@
 import axios from 'axios';
 import { useState } from 'react';
 import styled from 'styled-components';
-import Navbar from './Navbar/Navbar';
 
 const FormTwo = () => {
     const [formData, setFormData] = useState({
@@ -36,7 +35,6 @@ const FormTwo = () => {
     };
     return (
         <>
-            <Navbar />
             <StyledWrapper>
                 <div className="area">
                     <section className="container">

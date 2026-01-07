@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
-import { navLinks } from "../../../constants";
+import { navLinks } from "../../../../constants";
 
-import "../Navbar/Navbar.css";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

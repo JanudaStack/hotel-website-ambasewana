@@ -1,4 +1,4 @@
-import FormTwo from './FormTwo';
+import FormTwo from '../features/booking/FormTwo';
 
 const Booking = () => {
     return (

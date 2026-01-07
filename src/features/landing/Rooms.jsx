@@ -1,4 +1,4 @@
-import { rooms } from '../../constants';
+import { rooms } from '../../../constants';
 
 const Rooms = () => {
     return (

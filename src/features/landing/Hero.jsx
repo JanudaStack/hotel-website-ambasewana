@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import Navbar from './Navbar/Navbar';
 
 function Hero() {
     let navigate = useNavigate();
@@ -11,7 +10,6 @@ function Hero() {
     return (
         <>
             <div className="bg-img"></div>
-            <Navbar />
             <div className="hero-text-container">
                 <div className="hero-text" data-aos="fade-right">
                     <h2>

@@ -1,4 +1,4 @@
-import { galleryImgs } from '../../constants';
+import { galleryImgs } from '../../../constants';
 
 function Gallery() {
     const showDreamImages = () => {
