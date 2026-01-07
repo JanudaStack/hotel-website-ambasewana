@@ -6,7 +6,7 @@ const Booking = () => {
   return (
     <>
       <Helmet>
-        <title>Ambasewana Hotel | Best Hotel in Ussapitiya</title>
+        <title>Ambasewana Hotel | Book Your Reservation</title>
         <meta
           name="description"
           content="Book your stay at Ambasewana Hotel. Luxury rooms, weddings, and events in Ussapitiya. Best prices guaranteed."
