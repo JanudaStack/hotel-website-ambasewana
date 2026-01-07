@@ -1,5 +1,6 @@
 import React from 'react';
-// Imports auto-complete wunoth hodai, nathnam path check karanna wei
+import { Helmet } from 'react-helmet-async';
+
 import Hero from '../features/landing/Hero';
 import About from '../features/landing/About';
 import Rooms from '../features/landing/Rooms';
@@ -10,6 +11,12 @@ import Location from '../features/landing/Location';
 const Home = () => {
   return (
     <>
+    <Helmet>
+        <title>Ambasewana Hotel | Best Hotel in Ussapitiya</title>
+        <meta name="description" content="Book your stay at Ambasewana Hotel. Luxury rooms, weddings, and events in Ussapitiya. Best prices guaranteed." />
+        <meta name="keywords" content="hotel, sri lanka, rooms, wedding hall, ambasewana" />
+    </Helmet>
+
       <section id="hero"><Hero /></section>
       <section id="about"><About /></section>
       <section id="rooms"><Rooms /></section>

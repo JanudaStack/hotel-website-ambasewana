@@ -1,11 +1,24 @@
-import FormTwo from '../features/booking/FormTwo';
+import { Helmet } from "react-helmet-async";
+
+import FormTwo from "../features/booking/FormTwo";
 
 const Booking = () => {
-    return (
-        <>
-            <FormTwo />
-        </>
-    );
+  return (
+    <>
+      <Helmet>
+        <title>Ambasewana Hotel | Best Hotel in Ussapitiya</title>
+        <meta
+          name="description"
+          content="Book your stay at Ambasewana Hotel. Luxury rooms, weddings, and events in Ussapitiya. Best prices guaranteed."
+        />
+        <meta
+          name="keywords"
+          content="hotel, sri lanka, rooms, wedding hall, ambasewana"
+        />
+      </Helmet>
+      <FormTwo />
+    </>
+  );
 };
 
 export default Booking;

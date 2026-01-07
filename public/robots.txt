@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://oyage-domain-name.vercel.app/sitemap.xml
