@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import styled from 'styled-components';
 
-const FormTwo = () => {
+const BookingForm = () => {
     const [formData, setFormData] = useState({
         fullName: '',
         phone: '',
@@ -25,6 +25,7 @@ const FormTwo = () => {
             );
             console.log(response.data);
             alert('Booking Successfully!');
+            
         } catch (error) {
             console.error(
                 'Error submitting form: ',
@@ -258,4 +259,4 @@ const StyledWrapper = styled.div`
     }
 `;
 
-export default FormTwo;
+export default BookingForm;
