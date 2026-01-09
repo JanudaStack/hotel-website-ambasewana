@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-import FormTwo from "../features/booking/FormTwo";
+import BookingForm from "../features/booking/BookingForm";
 
 const Booking = () => {
   return (
@@ -16,7 +16,7 @@ const Booking = () => {
           content="hotel, sri lanka, rooms, wedding hall, ambasewana"
         />
       </Helmet>
-      <FormTwo />
+      <BookingForm />
     </>
   );
 };
